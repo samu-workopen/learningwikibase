@@ -21,7 +21,7 @@ Find out more
 Understand the jargon
 
 
-What are we doing?
+#What are we doing?
 The problem
 *Technical Interaction with the Wikibase Software is challenging
 *Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases
@@ -30,14 +30,15 @@ The problem
 A small group of early adopter Wikibase-enthusiasts is getting a lot of request by new users, who like to set up and test the Wikibase software. Some community
 memebers already developed presentations, technical documentation around Wikibase but it's not enough. Loads of new user more require 1:1 consultation or face-face workshops and this is not easy to scale up.
 
-The solution
-The project Connecting Wikibase will: 
+#The solution
+The project Connecting Wikibase will:
 
 
 
-Who are we?
 
-What do we need?
+#Who are we?
+
+#What do we need?
 
 
 Get involved
