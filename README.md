@@ -43,11 +43,11 @@ What do we need?
 Get involved
 
 Contact me
-
+muellricksandra@gmail.com
 
 Find out more
 
+*Contributors' guidelines
+*Roadmap
 
-Contributors' guidelines
-Roadmap
-
+The project is under ccbysa licence.
