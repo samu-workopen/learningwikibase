@@ -10,7 +10,7 @@ Both projects are technically developed by Wikimedia Deutschland e.V. (https://w
 The repro for Wikibase as software can be found here: https://github.com/wmde/wikibase-docker
 
 <h1> What are we doing? </h1>
-The problem
+The problem:
 <li> Technical Interaction with the Wikibase Software is challenging </li>
 <li>Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases </li>
 <li> Wikibase user can’t find enough developer support to get help in setting up a Wikibase Insance </li>
