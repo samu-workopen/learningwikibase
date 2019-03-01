@@ -9,46 +9,37 @@ Thank you for joining Connecting-Wikibase. Wikibase (http://wikiba.se/) is the s
 Both projects are technically developed by Wikimedia Deutschland e.V. (https://www.wikimedia.de/) and created and maintained by volunteers. 
 The repro for Wikibase as software can be found here: https://github.com/wmde/wikibase-docker
 
-This document (the README file) is a hub to give you some information about the project. Jump straight to one of the sections below, or just scroll down to find out more.
-My vision for this project is: I’m working with the Wikibase-community to make Wikibase more accessible to technical users so they can create their own open and collaborative database to serve their particular needs/goals.
-
-What are we doing? (And why?)
-Who are we?
-What do we need?
-How can you get involved?
-Get in touch
-Find out more
-Understand the jargon
-
-
-#What are we doing?
+<h1> What are we doing? </h1>
 The problem
-*Technical Interaction with the Wikibase Software is challenging
-*Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases
-*Wikibase user can’t find enough developer support to get help in setting up a Wikibase Insance
+<ul> Technical Interaction with the Wikibase Software is challenging </ul>
+<ul>Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases </ul>
+<ul> Wikibase user can’t find enough developer support to get help in setting up a Wikibase Insance </ul>
 
-A small group of early adopter Wikibase-enthusiasts is getting a lot of request by new users, who like to set up and test the Wikibase software. Some community
-memebers already developed presentations, technical documentation around Wikibase but it's not enough. Loads of new user more require 1:1 consultation or face-face workshops and this is not easy to scale up.
+A small group of early adopter Wikibase-enthusiasts is getting a lot of request by new users, who like to set up and test the Wikibase software. The Community around Wikibase already developed presentations, technical documentation around Wikibase but lot's of new user more require 1:1 consultation or face-face workshops and this is not easy to scale up.
 
-#The solution
-The project Connecting Wikibase will:
+<h1> What is the solution? </h1>
+The project Connecting Wikibase will develop a Mooc for Wikibase (e.g. Video, FAQ, One-click-Use Case) based on the Community needs.
 
+<h1> Whats about me? </h1>
+I'm sandra and involved in open source for a couple of years and working as Project Manager for Wikimedia Deutschland e.V.. Here I'm participating in my volunteer role.
 
-
-
-#Who are we?
-
-#What do we need?
+<h1> What is needed? </h1>
+Community Input for creating a Mooc, Feedback of Content and Content Creators.
 
 
-Get involved
+<h1> Get involved </h1>
+Please use this GitHub Repro to get involve
 
-Contact me
-muellricksandra@gmail.com
+<h1> Contact me </h1>
 
-Find out more
+<h1> Find out more </h1>
+Wikibase (http://wikiba.se/) is the software behind Wikidata. Wikidata (wikidata.org) empowers Wikipedia and many other projects.
+Both projects are technically developed by Wikimedia Deutschland e.V. (https://www.wikimedia.de/) and created and maintained by volunteers. The repro for Wikibase as software can be found here: https://github.com/wmde/wikibase-docker
 
-*Contributors' guidelines
-*Roadmap
+
+<h1> Contributors' guidelines </h1>
+tba
+
+<h1> Roadmap </h1>
 
 The project is under ccbysa licence.
