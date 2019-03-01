@@ -11,7 +11,6 @@ The repro for Wikibase as software can be found here: https://github.com/wmde/wi
 
 <h1> What are we doing? </h1>
 The problem
-<ul> 
 <li> Technical Interaction with the Wikibase Software is challenging </li>
 <li>Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases </li>
 <li> Wikibase user can’t find enough developer support to get help in setting up a Wikibase Insance </li>
@@ -27,11 +26,8 @@ I'm sandra and involved in open source for a couple of years and working as Proj
 <h1> What is needed? </h1>
 Community Input for creating a Mooc, Feedback of Content and Content Creators.
 
-
 <h1> Get involved </h1>
 Please use this GitHub Repro to get involve
-
-<h1> Contact me </h1>
 
 <h1> Find out more </h1>
 Wikibase (http://wikiba.se/) is the software behind Wikidata. Wikidata (wikidata.org) empowers Wikipedia and many other projects.
