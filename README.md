@@ -11,9 +11,10 @@ The repro for Wikibase as software can be found here: https://github.com/wmde/wi
 
 <h1> What are we doing? </h1>
 The problem
-<ul> Technical Interaction with the Wikibase Software is challenging </ul>
-<ul>Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases </ul>
-<ul> Wikibase user can’t find enough developer support to get help in setting up a Wikibase Insance </ul>
+<ul> 
+<li> Technical Interaction with the Wikibase Software is challenging </li>
+<li>Wikibase as a Wikibase Database is used very individual. User’s have lot of different requirements. So there are a lot of different use cases </li>
+<li> Wikibase user can’t find enough developer support to get help in setting up a Wikibase Insance </li>
 
 A small group of early adopter Wikibase-enthusiasts is getting a lot of request by new users, who like to set up and test the Wikibase software. The Community around Wikibase already developed presentations, technical documentation around Wikibase but lot's of new user more require 1:1 consultation or face-face workshops and this is not easy to scale up.
 
