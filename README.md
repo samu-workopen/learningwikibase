@@ -38,8 +38,9 @@ tba
 
 <h1> Roadmap </h1>
 My roadmap for the project will be:
-Finetune Requirement + MVP (February)
-Creating Learning Design for the Online Course + Content + Interaction Plattform (March)
-Testing Online Course and Interaction Plattform on Wikibase Workshops (April)
+<li> Finetune Requirement + MVP (February) </li>
+<li> Creating Learning Design for the Online Course + Content + Interaction Plattform (March) </li>
+<li> Testing Online Course and Interaction Plattform on Wikibase Workshops (April) </li>
 
-The project is under ccbysa licence.
+<h1> Licence </h1>
+CCbySA
