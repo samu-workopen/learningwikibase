@@ -34,13 +34,61 @@ Wikibase (http://wikiba.se/) is the software behind Wikidata. Wikidata (wikidata
 Both projects are technically developed by Wikimedia Deutschland e.V. (https://www.wikimedia.de/) and created and maintained by volunteers. The repro for Wikibase as software can be found here: https://github.com/wmde/wikibase-docker
 
 <h1> Contributors' guidelines </h1>
-tba
+These are the contributing guidlines for the development of the this MOOC ( Massive Open Online Course) for Wikibase. The idea behind is that everyone can contribute their learning experience, hacks, tools etc with wikibase with a short video. I will provide some introduction videos.
+
+Invited experperts can created videos around their hacks, tools or further experience. The participation is open and everyone should be able to contribute as long as the person is sharing the open values for this MOOC and the process which is described in this repro. The plattform to develop the MOOC will be this GitHub repro. Please use this also for Feedback and contributions.
+
+This is a very early stage project and is crowdsourced and volunteerlet. We will focus on one introduction video, an FAQ to run it as pilot for testing and receiving feedback. Afterwards the content will be adapted and based on community feedback more videos etc. will be developed.
+
+You can contact us or contribute via GitHubrepro.
+If you have any questions please email us directly.
+
+News will be published with @XXXX . 
+
+Getting started
+Forming a team for collaborative design.
+The development process.
+Familiarise yourself with the script writing guide, the script template and the video management protocol.
+Each team will adhere to the MOOC planning template to structure development in a systematic way.
+
+Reporting issues
+Search for existing issues. Please check to see if someone else has reported the same issue.
+Share as much information as possible. Include operating system and version, browser and version. Also, include steps to reproduce the bug.
+Project Setup
+Refer to the README.
+
+Content style
+This is flexible to each module as required, and defined by each development team in advance as part of the protocol.
+
+Code style
+Flexible, as long as it is consistent. 
+
+Please read this guide to familiarise yourself with this process.
+
+Pull requests
+Please refer to each project's style guidelines and guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+Fork the repo on GitHub
+Clone the project to your own machine
+Commit changes to your own branch
+Push your work back up to your fork
+Submit a Pull request so that we can review your changes
+NOTE: Be sure to merge the latest from "upstream" before making a pull request!
+
+Try not to pollute your pull request with unintended changes – keep them simple and small. If possible, squash your commits.
+Try to share how your code has been tested before submitting a pull request.
+If your PR resolves an issue, include closes #ISSUE_NUMBER in your commit message (or a synonym).
+Review
+If your PR is ready for review, another contributor will be assigned to review your PR
+The reviewer will accept or comment on the PR.
+If needed address the comments left by the reviewer. Once you're ready to continue the review, ping the reviewer in a comment.
+Once accepted your code will be merged to master
 
 <h1> Roadmap </h1>
 My roadmap for the project will be:
 <li> Finetune Requirement + MVP (February) </li>
-<li> Creating Learning Design for the Online Course + Content + Interaction Plattform (March) </li>
-<li> Testing Online Course and Interaction Plattform on Wikibase Workshops (April) </li>
+<li> Creating Learning Design for the Online Course + Content + Interaction Plattform (Mid-April) </li>
+<li> Testing Online Course and Interaction Plattform on Wikibase Workshops (End-April / May) </li>
 
 <h1> Licence </h1>
 CCbySA
