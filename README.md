@@ -54,7 +54,7 @@ We will need Learning Material for 5 sections:
 *Maintanance
 
 You can contribute your ressources for everytopic in the specific retro.
-We will use Gitbook als Learning Collection for Wikibase and this Githup Repro to organize community acitivity and the work. 
+We will use Gitbook als Learning Collection Plattform (https://app.gitbook.com/@wikibase-learning-collection/s/wikibase-learning-collection/) for Wikibase and this Githup Repro to organize community acitivity and the work. 
 
 Reporting issues
 Search for existing issues. Please check to see if someone else has reported the same issue.
