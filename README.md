@@ -43,7 +43,7 @@ This is a very early stage project and is crowdsourced and volunteer-let. We wil
 You can contact us or contribute via GitHubrepro.
 If you have any questions please email us directly.
 
-News will be published with @WikibaseC. 
+News will be published with https://twitter.com/WikibaseC. 
 
 Getting started
 We will need Learning Material for 5 sections:
