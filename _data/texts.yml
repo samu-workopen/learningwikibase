@@ -1,0 +1,14 @@
+nav:
+  about: About
+  contribute: Contribute
+index:
+  lead: Learn how to install and maintain the software that stores and manages structured, non-relational data in a central, collaboratively managed repository.
+article:
+  table_of_contents: Table of Contents
+  back_to_all_guides: Back to all guides
+  related_faqs: Related FAQs
+footer:
+  contribute:
+    heading: Contribute
+    description: Want to make a suggestion? This content is open source. Help us improve it.
+    button: Contribute

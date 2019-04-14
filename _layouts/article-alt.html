@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<header class="article-alt-header bg-gray-light">
+  <div class="container-lg p-responsive mx-auto">
+    <h1 class="h1-mktg lh-condensed text-center my-6 py-md-6">{{ page.title }}</h1>
+    <p class="lead text-center text-gray col-md-8 mx-auto mb-4 position-relative">{{ page.description }}</p>
+  </div>
+</header>
+
+<article class="pb-md-6">
+  <div class="article-body mx-auto px-3 pt-4 pt-lg-6 pb-6 col-md-10 col-lg-8 col-xl-6">
+    {{ content }}
+  </div>
+</article>
+
+{% include footer.html %}

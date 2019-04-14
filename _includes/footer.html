@@ -1,0 +1,23 @@
+{% assign t = site.data.texts %}
+<footer class="bg-white border-top text-center pt-5">
+  <div class="container-lg p-responsive mx-auto">
+
+    <div class="d-flex flex-wrap flex-items-stretch">
+      <div class="col-12 mb-4">
+        <div class="height-full p-5">
+          <h3 class="h3-mktg mb-3">{{ t.footer.contribute.heading }}</h3>
+          <p class="mb-3 p-large">{{ t.footer.contribute.description }}</p>
+          <p>
+            <a data-proofer-ignore href="https://github.com/{{ site.github.repository }}/edit/master/{{ page.path }}" class="btn btn-outline">
+              {{ t.footer.contribute.button }}
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-top text-gray py-5">
+      <p class="float-md-right"><a class="text-gray-light text-small" href="{{ '/notices/' | relative_url }}">fine print</a></p>
+    </div>
+  </div>
+</footer>

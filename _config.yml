@@ -1,1 +1,41 @@
-theme: jekyll-theme-slate
+title: Learning Wikibase
+description: Learn how to install and manage Wikibase.
+
+exclude:
+  - CNAME
+  - CONTRIBUTING.md
+  - Gemfile*
+  - node_modules
+  - package.json
+  - README.md
+  - vendor
+
+permalink: /:path/
+
+collections:
+  articles:
+    output: true
+    permalink: /:path/
+  faqs:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+
+plugins:
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sass_dir: assets/css/
+  style: :compressed
+  load_paths:
+    - node_modules
+
+github:
+  repository: github/samu-wmde

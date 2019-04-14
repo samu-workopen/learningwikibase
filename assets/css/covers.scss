@@ -1,0 +1,37 @@
+.article-header {
+  padding: 20px 0;
+
+  nav {z-index: 1;}
+  .cover-img {z-index: -1;}
+
+  @include breakpoint(sm) {
+    padding: 50px 0 0;
+  }
+
+  @include breakpoint(md) {
+    padding: 100px 0 0;
+  }
+}
+
+.article-alt-header {
+  margin: -40px 0;
+}
+
+.guide-cover-img {
+  height: 200px;
+
+  @include breakpoint(lg) {
+    height: 250px;
+  }
+  img {
+    max-height: 100%;
+    padding: $spacer-3 0;
+  }
+}
+
+.guide-cover {
+  &:hover {
+    box-shadow: $box-shadow-large;
+    text-decoration: none;
+  }
+}

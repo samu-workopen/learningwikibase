@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{% assign t = site.data.texts %}
+{% include nav.html %}
+
+<header class="article-header {{ page.class }} bg-gray-light">
+  <div class="container-lg p-responsive clearfix mx-auto">
+
+    <h1 class="h0-mktg lh-condensed text-center mb-3">{{ page.title }}</h1>
+    <p class="lead text-center text-gray col-md-8 mx-auto mb-4 position-relative">{{ page.description }}</p>
+    <nav class="toc mb-4 mb-md-6">
+      <div class="Box col-sm-8 col-md-4 col-lg-3 mx-auto">
+        <a class="toc-trigger d-block text-center p-3">
+          <span class="text-black">{{ t.article.table_of_contents }}</span><svg height="18" class="octicon octicon-triangle-down ml-2 fill-blue v-align-middle icon-flip" viewBox="0 0 12 16" version="1.1" width="13" role="img"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"></path></svg>
+        </a>
+        <ol class="toc-list list-style-none">
+          {% for section in page.toc %}
+          <li class="border-top">
+            <a href="#{{ section[0] }}" class="d-block py-3 px-3">{{ section[1] }}</a>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<article class="pb-md-6">
+  <div class="article-body mx-auto px-3 pt-4 pt-lg-6 pb-6 col-md-10 col-lg-8 col-xl-6">
+    {{ content }}
+  </div>
+  <div class="text-center pb-4">
+    <a class="h3-mktg" href="/">
+      {{ t.article.back_to_all_guides }}
+    </a>
+  </div>
+</article>
+
+{% assign faqs = site.faqs | where: 'related', page.class %}
+{% if faqs %}
+  <div class="container-lg p-responsive mx-auto border-top pt-5 pb-5">
+    <h2 class="h2-mktg text-center">{{ t.article.related_faqs }}</h2>
+    <div class="gutter-sm d-flex flex-wrap flex-items-stretch pb-md-6">
+      {% for faq in faqs %}
+        <div class="col-12 mt-5">
+          <h3 class="h3-mktg text-bold lh-condensed mb-2 text-black">
+            {{ faq.title }}
+          </h3>
+          <div class="mb-0 text-gray">
+            {{ faq.content }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% include footer.html %}

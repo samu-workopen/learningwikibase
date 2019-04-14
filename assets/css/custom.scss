@@ -1,0 +1,152 @@
+a, .btn {
+  transition: all 0.2s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  color: $gray;
+  border-left: $border;
+  border-width: 4px;
+  padding: $spacer-1 0 0 $spacer-2;
+  margin-top: $spacer-2;
+  margin-bottom: $spacer-2;
+  @include breakpoint(md) {
+    padding: $spacer-1 0 $spacer-1 $spacer-3;
+    margin-top: $spacer-3;
+    margin-bottom: $spacer-3;
+  }
+}
+
+.lh-none {
+  line-height: 0;
+}
+
+.main-links a {
+  &:hover {
+    background: $bg-gray-light;
+    text-decoration: none;
+    color: $gray-dark;
+  }
+}
+
+.breadcrumb {
+  background: #F3F3F3;
+
+  @include breakpoint(sm){
+    background: $bg-white;
+  }
+}
+
+// Big opening paragraphs
+.lead {
+  -webkit-font-smoothing: antialiased;
+  font-size: 21px;
+  font-weight: $font-weight-light;
+  @include breakpoint(md) { font-size: 24px; }
+  @include breakpoint(lg) { font-size: 26px; }
+}
+
+.p-large {
+  font-size: 16px;
+}
+
+.article-body {
+  font-size: 16px;
+  padding-top: 100px;
+  max-width: 700px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    -webkit-font-smoothing: antialiased;
+    font-family: $font-mktg
+  }
+
+  h1 { @include h0-mktg }
+
+  h3 {
+    @include h2-mktg;
+    margin-top: $spacer-4;
+    margin-bottom: $spacer-3;
+    @include breakpoint(md) {
+      margin-top: $spacer-5;
+    }
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: $font-weight-semibold;
+  }
+
+  h5 {
+    font-size: $h5-size;
+    font-weight: $font-weight-semibold;
+  }
+
+  h6 {
+    font-size: $h6-size;
+    font-weight: $font-weight-semibold;
+  }
+
+  h2 {
+    @include h1-mktg;
+    text-align: center;
+    margin-bottom: $spacer-3;
+    line-height: 1.25;
+
+    &:before {
+      display: block;
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: $spacer-4;
+      margin-top: 40px;
+
+      @include breakpoint(md) {
+        margin-top: 120px;
+      }
+
+    }
+  }
+
+  ul, ol {
+    padding-left: 1em;
+    margin-bottom: $spacer-3;
+
+    li { margin-bottom: $spacer-2; }
+
+    @include breakpoint(md) {
+      padding-left: 2em;
+    }
+  }
+
+  img {
+    margin: $spacer-3 0;
+  }
+
+}
+
+.border-sm-0 {
+  @include breakpoint(sm) { border-bottom: none !important; }
+}
+
+.bg-gray-light {
+  background-color: #F3F3F3 !important;
+}
+
+.text-black {
+  color: #333 !important;
+}
+
+.fill-blue {
+  fill: $blue !important;
+}
+
+iframe {
+  margin: 0 auto 8px auto;
+  display: block;
+}
