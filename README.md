@@ -1,8 +1,8 @@
-# Connecting-Wikibase
+# LearningWikibase
 Connecting your Data with Wikibase to expand the Free Open Knowledge environment. 
 Help to developing a MOOC for using Wikibase / Wikidata to make the interaction with the software and the free open source database easier.
 
-Join the Wikibase Telegram Channel: XXXX
+Join the Wikibase Telegram Channel: 
 
 Welcome!
 Thank you for joining Connecting-Wikibase. Wikibase (http://wikiba.se/) is the software behind Wikidata. Wikidata empowers Wikipedia and many other projects.
