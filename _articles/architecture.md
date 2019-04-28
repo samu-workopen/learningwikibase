@@ -1,5 +1,5 @@
 ---
-title: Install Wikibase
+title: Dataarchitecture 
 description: Wikibase may be installed using Git and Composer, or using the Wikibase Docker image.
 class: install-wikibase
 toc:
