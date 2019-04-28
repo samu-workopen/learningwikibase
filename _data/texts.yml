@@ -2,7 +2,7 @@ nav:
   about: About
   contribute: Contribute
 index:
-  lead: Learn how to install and maintain the software that stores and manages structured, non-relational data in a central, collaboratively managed repository.
+  lead: Wikibase is an open source software suite for running a collaborative knowledge base. It's a collaborative knowledge base software that allows users to tie in to a vast network of linked open data, easily adding to and ingesting knowledge from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) and other instances of Wikibase, creating an ecosystem of easily shared, accessible knowledge. Learn how to launch a Wikibase instance and work with it.
 article:
   table_of_contents: Table of Contents
   back_to_all_guides: Back to all guides
