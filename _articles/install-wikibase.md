@@ -13,9 +13,7 @@ You will find different ways on how to install Wikibase. The most common are:
 
 - Git and Composer 
 - Wikibase Docker image
-- Open Stack 
-
--https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/
+- Open Stack  (https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
 
 
 ## Install Wikibase natively with Git and Composer 
@@ -24,38 +22,50 @@ This video will show you a screencast on how to install Wikibase natively with G
 
 Video 
 
-Vorraussetzung, um eine Wikibase Instanz zu installieren:
-- Webserver
-- Git als Tools (Versionsverwaltungssystem) 
-- Composer
+Prerequisite to install a Wikibase instance:
+- Web server
+- Git as tools (version control system) 
+- composer
 
 Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite (apachee local server you have to remotely try out a server). There are several distributions. Best known is: https://www.apachefriends.org/index.html
 
+
 ### Clone MediaWiki repository
 
-1. MediaWiki wird aufgesetzt über den Befehl 
-2. Das Repository kann man klonen und den Branch anklicken, den man möchte. Die verschiedenen Versionen sind in den verschiedenen Branch’s: https://www.mediawiki.org/wiki/Download_from_Git
-4.  → Henning hat Version 1.30 ausprobiert, um die Updates zu testen. Normalerweise sollte man immer die neuste Version nehmen, damit es stabil ist und die neusten Features hat.
-(Wenn man die Branch wegnehmen würde, würde man den Master nehmen, aber auf der wird aktuell entwickelt). Informationen über aktuelle Releases (neuere Versionen von Wikibase) finden sich hier:https://www.mediawiki.org/wiki/Release_notes
-5. Einen Clon der Wikibase Version, die man benötigt erstellt man durch den Befehl: https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_30 mediawiki in seiner Comandoleiste
-6. Diesen Clon schiebt man in seinen MediaWiki Ordner 
-7. Als nächstes holt man sich alle Extensions, die man installieren möchte. Das macht man mit Composer 
-Die Extensions müssen zu der MediaWiki Version passen, die man runtergeladen hat. Die Extensions müssen in der gleichen Version sein. Die Extensions sind alle auf Packages (das sind alle PAckages, die man mit Composer laden kann (Wikimedia hat dort alle abgelegt) abgelegt. 
-8. Beispielsweise installiert man den Vektor Skin indem man folgenden Befehl in seine Kommandoleiste eingibt: composer require mediawiki/vector-skin:dev-REL1_30 → Der Composer lädt automatisch Komponenten (Packages) von den das Packages, dass man indirekt installiert, abhängig ist z.B. der Vektor Skin benötigt weitere Packages, um zu funktionieren. Diese findet man in seinem MediaWikiOrdnung unter dem “Vendor” Verzeichnis. Im Composer Jason File sind alle Abhängigkeiten definiert, die man für das Projekt benötigt. Man will dadurch erreichen, dass man immer die aktuelle Version hat.
+1. MediaWiki is set up via the command 
+2. you can clone the repository and click on the branch you want. The different versions are in the different branches: https://www.mediawiki.org/wiki/Download_from_Git
+4. → Henning has tried version 1.30 to test the updates. Normally you should always use the latest version to make it stable and have the latest features.
+(If you took the branch away, you'd take the master, but it's currently under development). Information about current releases (newer versions of Wikibase) can be found here:https://www.mediawiki.org/wiki/Release_notes
+5. create a clon of the wikibase version you need with the command: https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_30 mediawiki in your command line
+6. you put this clon into your MediaWiki folder 
+7. next you get all extensions you want to install. This is what you do with Composer 
+The extensions must match the MediaWiki version you downloaded. The extensions must be in the same version. The extensions are all stored on packages (these are all packages that can be loaded with Composer (Wikimedia has stored them all there). 
+For example, you install the vector skin by typing the following command into your command bar: composer require mediawiki/vector-skin:dev-REL1_30 → The composer automatically loads components (packages) from which the packages you install indirectly depend, e.g. the vector skin needs more packages to work. These can be found in his MediaWikiOrdnung under the "Vendor" directory. In the Composer Jason File all dependencies are defined which are needed for the project. You want to achieve that you always have the latest version.
 
 ### Add extensionsion using composer
   
-1. Die ganzen Extensions kann man auch so clonen ohne den Composer, mit diesem ist es jedoch einfacher.
-2. Nun muss man noch die ganzen Abhängigkeiten von Media Wiki selber installieren z.B. Debugging
-3. Jetzt hat man seinen Webserver. Man kann jetzt MediaWiki installieren. (Man hat zwei Pfade (den lokalen Webserver direkt auf dem Computer und das Webverzeichniss, welches extern ist) → man greift über den Browser auf das Verzeichnis zu, in das man MediaWiki reingeklont hat.
-4. Dann führt man die MediaWiki Installations Routine aus → Durch ein Menü wird man hindurchgeführt. 
-5. Dann kann auf sein Wiki zugreifen. Jetzt sieht man, dass der Vektor Skin (Extension) schon automatisch drinn ist. 
+The whole extensions can also be cloned without the composer, but with the composer it is easier.
+2. now you have to install all the dependencies of Media Wiki yourself e.g. Debugging
+3. Now you have your web server. You can now install MediaWiki. (You have two paths (the local web server directly on the computer and the web directory, which is external) → you access the directory you have cloned MediaWiki into via your browser.
+Then you execute the MediaWiki installation routine → You are led through a menu. 
+5. then you can access your wiki. Now you can see that the vector skin (extension) is already inside automatically. 
 
 ### Configure Wikibase
 
-1. Wenn man “Special Version” anklickt → muss man noch Wikibase Language Version (das braucht man, um in verschiedenen Sprachen Labels anlegen zu können) und Wikibase Repro (das will man haben, um Items und Properties erstellen zu können auf seiner Wikibase Instanz) aktivieren → befindet sich auch im Docker Image
-2. Was man machen muss, ist die Local Settings aktivieren. Dazu muss man die LoW Extension Anweisung in die Local Settings PHP Version (die Datei wird generiert, wenn man die MediaWiki Installation abschließt, die kopiert man dann in sein Hauptverzeichnis). Der Befehl ist: wfLoadExtension( 'UniversalLanguageSelector' ); 
-3. Die Aktivierung von Wikibase nimmt man von der Wikibase Installationsseite: https://www.mediawiki.org/wiki/Wikibase/Installation z.B. kann man nur das Repro aktivieren, wenn nur dieses braucht ist z.B. Abhängig vom Gebrauchszweck ( z.b. Kann man sich überlegen, ob der Client benötigt wird oder nicht)
-4. Wenn man jetzt seine Special Version aktualisiert ist, kann man loslegen. Wenn man dieses Comando: php maintenance/update.php
-5.  ausführt werden alle Grundsachen angelegt (z.B. die Datenbanktabellen, die man braucht, um in Wikibase zu arbeiten)
-6. Das Wikibase Repro, was man installiert hat, sollte so grundsätzlich funktionieren. 
+1. if you click on "Special Version" → you need to activate Wikibase Language Version (you need this to create labels in different languages) and Wikibase Repro (you need this to create items and properties on your Wikibase instance) → is also located in the Docker Image
+2. what you have to do is activate the local settings. To do this you have to copy the LoW Extension command into the Local Settings PHP version (the file will be generated when you finish the MediaWiki installation, then copy it to your main directory). The command is: wfLoadExtension( 'UniversalLanguageSelector' ); 
+The activation of Wikibase is done from the Wikibase installation page: https://www.mediawiki.org/wiki/Wikibase/Installation e.g. you can only activate the repro if only this is needed e.g. depending on the purpose (e.g. you can decide if the client is needed or not)
+4. if you've updated your special version now, you're ready to go. If you use this command: php maintenance/update.php
+5. executes all basic things will be created (e.g. the database tables you need to work in Wikibase)
+6. the wikibase repro you have installed should work this way. 
+
+
+## Install Wikibase with a Docker Image 
+
+This Video will show you a Docker Image Installation: 
+VIDEO
+
+All informations about the Docker installation you can find here:https://github.com/wmde/wikibase-docker/blob/master/README-compose.md
+
+## Open Stack to run a custom Wikibase
+
