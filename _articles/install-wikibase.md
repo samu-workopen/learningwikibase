@@ -13,7 +13,7 @@ You will find different ways on how to install Wikibase. The most common are:
 
 - [Git and Composer](https://www.mediawiki.org/wiki/Wikibase/Installation#Vagrant) 
 - [Wikibase Docker image](https://github.com/wmde/wikibase-docker/blob/master/README-compose.md)
-- [Opestack](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
+- [Openstack](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
 
 When you install Wikibase and your Wikibase Installation is public please register you installation in the [Wikibase Registry](http://wikibase-registry.wmflabs.org/wiki/Main_Page)
 
@@ -29,17 +29,16 @@ Prerequisite to install a Wikibase instance:
 - Git as tools (version control system) 
 - composer
 
-Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite (apachee local server you have to remotely try out a server). There are several distributions. Best known is: https://www.apachefriends.org/index.html
+Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite (apachee local server you have to remotely try out a server). There are several distributions. Best known is [Apachefriends](https://www.apachefriends.org/index.html)
 
 
 ### Clone MediaWiki repository
 
-1. MediaWiki is set up via the command 
-2. you can clone the repository and click on the branch you want. The different versions are in the different branches: https://www.mediawiki.org/wiki/Download_from_Git
-4. → Henning has tried version 1.30 to test the updates. Normally you should always use the latest version to make it stable and have the latest features.
-(If you took the branch away, you'd take the master, but it's currently under development). Information about current releases (newer versions of Wikibase) can be found here:https://www.mediawiki.org/wiki/Release_notes
-5. create a clon of the wikibase version you need with the command: https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_30 mediawiki in your command line
-6. you put this clon into your MediaWiki folder 
+1. Set Up MediaWiki in your terminal.
+2. You can clone the repository and click on the branch you want. The different versions are in the different branches: [https://www.mediawiki.org/wiki/Download_from_Git].
+4. We tried version 1.30 to test the updates. Normally you should always use the latest version to make it stable and have the latest features. (If you took the branch away, you'd take the master, but it's currently under development). Information about current releases (newer versions of Wikibase) can be found [here](https://www.mediawiki.org/wiki/Release_notes).
+5. Create a clon of the wikibase version you need with [the command](https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_30 mediawiki) in your command line.
+6. When you create a MediaWiki Folder on your Device, you can put this clone into your MediaWiki folder.  
 7. next you get all extensions you want to install. This is what you do with Composer 
 The extensions must match the MediaWiki version you downloaded. The extensions must be in the same version. The extensions are all stored on packages (these are all packages that can be loaded with Composer (Wikimedia has stored them all there). 
 For example, you install the vector skin by typing the following command into your command bar: composer require mediawiki/vector-skin:dev-REL1_30 → The composer automatically loads components (packages) from which the packages you install indirectly depend, e.g. the vector skin needs more packages to work. These can be found in his MediaWikiOrdnung under the "Vendor" directory. In the Composer Jason File all dependencies are defined which are needed for the project. You want to achieve that you always have the latest version.
