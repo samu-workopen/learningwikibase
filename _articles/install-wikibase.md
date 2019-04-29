@@ -1,6 +1,6 @@
 ---
 title: Install Wikibase
-description: Wikibase may be installed using Git and Composer, or using the Wikibase Docker image.
+description: Learn how to install Wikibase using Git and Composer, using the Wikibase Docker image or Open Stack
 class: install-wikibase
 toc:
   install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
@@ -9,25 +9,27 @@ order: 1
 image:
 ---
 
-## Install Wikibase using the Docker image
+You will find different ways on how to install Wikibase. The most common are:
 
-- Openstack
-- https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/
-- Dataarchitecture
-- Dataimport 
-- Dataexport
-- Visualisation 
-- Maintanance 
-- USE Cases 
+- Git and Composer 
+- Wikibase Docker image
+- Open Stack 
 
-## Install Wikibase natively
+-https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/
+
+
+## Install Wikibase natively with Git and Composer 
+
+This video will show you a screencast on how to install Wikibase natively with Git and Composer:
+
+Video 
 
 Vorraussetzung, um eine Wikibase Instanz zu installieren:
 - Webserver
 - Git als Tools (Versionsverwaltungssystem) 
 - Composer
 
-Vorraussetzung MediaWiki laufen zu lassen ist, dass man einen Server hat Media Wiki Vorraussetzung (apachee lokaler Server, den man hat, um remote einen Server auszuprobieren). Es gibt verschiedene Distributionen. Am bekanntesten ist: https://www.apachefriends.org/index.html
+Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite (apachee local server you have to remotely try out a server). There are several distributions. Best known is: https://www.apachefriends.org/index.html
 
 ### Clone MediaWiki repository
 
