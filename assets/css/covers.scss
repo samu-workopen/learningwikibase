@@ -1,8 +1,17 @@
 .article-header {
   padding: 20px 0;
 
-  nav {z-index: 1;}
-  .cover-img {z-index: -1;}
+  nav {
+    z-index: 1;
+  }
+
+  .cover-img {
+    z-index: -1;
+
+    img {
+      min-width: 30%;
+    }
+  }
 
   @include breakpoint(sm) {
     padding: 50px 0 0;

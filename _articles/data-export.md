@@ -1,7 +1,7 @@
 ---
-title: Maintain Wikibase
+title: Query & Export Data
 description: XX
-class: XX
+class: data-export
 toc:
   install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
   install-wikibase-natively: "Install Wikibase natively"

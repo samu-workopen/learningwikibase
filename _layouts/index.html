@@ -23,6 +23,12 @@ layout: default
       <div class="col-12 col-sm-9 mx-auto col-md-6 mt-4 mt-lg-5">
         <a href="{{ article.url | relative_url }}" class="guide-cover {{ article.class }} Box height-full d-block">
 
+          {% if article.image != blank %}
+            <div class="lh-none guide-cover-img text-center pt-4">
+              <img src="{{ site.baseurl }}{{ article.image }}" alt="{{ article.title }}">
+            </div>
+          {% endif %}
+
           <div class="flex-self-end p-4 text-center p-lg-5">
             <h3 class="h3-mktg text-bold lh-condensed mb-2 text-black">
               {{ article.title }}

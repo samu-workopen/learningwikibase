@@ -1,10 +1,10 @@
 ---
-title: Query & Export Data
+title: Import Data
 description: XX
-class: XX
+class: data-import
 toc:
   install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
   install-wikibase-natively: "Install Wikibase natively"
 order: 1
-image: 
+image: /assets/images/articles/data-import.svg
 ---
