@@ -5,7 +5,6 @@ exclude:
   - CNAME
   - CONTRIBUTING.md
   - Gemfile*
-  - node_modules
   - package.json
   - README.md
   - vendor
