@@ -78,9 +78,15 @@ blockquote {
       margin-top: $spacer-5;
     }
   }
+
   h4 {
     font-size: 16px;
     font-weight: $font-weight-semibold;
+    margin-top: $spacer-3;
+    margin-bottom: $spacer-2;
+    @include breakpoint(md) {
+      margin-top: $spacer-4;
+    }
   }
 
   h5 {
