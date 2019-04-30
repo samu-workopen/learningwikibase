@@ -17,9 +17,9 @@ You will find different ways on how to install Wikibase. The most common are:
 - [Openstack](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
 
 When you install Wikibase and your Wikibase Installation is public please register you installation in the [Wikibase Registry](http://wikibase-registry.wmflabs.org/wiki/Main_Page)
->
+
 ## Install Wikibase natively with Git and Composer 
->
+
 This video will show you a screencast on how to install Wikibase natively with Git and Composer:
 
 Video 
@@ -31,7 +31,7 @@ Prerequisite to install a Wikibase instance:
 
 Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite (apachee local server you have to remotely try out a server). There are several distributions. Best known is [Apachefriends](https://www.apachefriends.org/index.html) . 
 
-### Clone MediaWiki repository . 
+### Clone MediaWiki repository 
 
 1. Set Up MediaWiki in your terminal.
 2. You can clone the repository and click on the branch you want. The different versions are in the different branches: [Download from Git](https://www.mediawiki.org/wiki/Download_from_Git).
