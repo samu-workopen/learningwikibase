@@ -96,8 +96,13 @@ blockquote {
   h2 {
     @include h1-mktg;
     text-align: center;
+    margin-top: $spacer-5;
     margin-bottom: $spacer-3;
     line-height: 1.25;
+
+    @include breakpoint(md) {
+      margin-top: $spacer-6;
+    }
 
     &:before {
       display: block;
@@ -109,7 +114,6 @@ blockquote {
       @include breakpoint(md) {
         margin-top: 120px;
       }
-
     }
   }
 
