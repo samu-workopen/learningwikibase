@@ -75,7 +75,7 @@ VIDEO IN PROGRESS
 All informations about the Docker installation you can find [Readme-Compose](https://github.com/wmde/wikibase-docker/blob/master/README-compose.md).
 
 
-## Open Stack to run a custom Wikibase
+### Open Stack to run a custom Wikibase
 
 
 This Video will show you, how to do run a custom Wikibase with OpenStack.
@@ -84,7 +84,7 @@ VIDEO IN PROGRESS
 
 To get all information please read [Using Open Stack to run custom Wikibase](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
 
-## Getting Started 
+### Getting Started 
 
 1. Create an account, if you don’t have one already
 2. Add billing details
@@ -99,31 +99,31 @@ To get all information please read [Using Open Stack to run custom Wikibase](htt
 8. Key pair, create one and download the PEM :)
     >> Launch Instance
 
-## Add a public IP
+### Add a public IP
 
 1. From the instances page, click on the actions menu on the right hand side & click Associate floating IP
 2. Click the + button to add a new IP
 3. Click Allocate IP && Associate
 
-## Add firewall rules
+### Add firewall rules
 
 1. Navigate to Project >> Compute >> Access & Security >> Security Groups
 2. Click on “Manage Rules” for the default group
 3. Allow ingress on port 22 (for ssh) for your IP (or all IPs, depending on how secure you want to be)
 4. Allow ingress on the ports for wikibase & query service UI access (the defaults at 8181 and 8282) from all IPs 0.0.0.0/0
 
-## Login to the instance
+### Login to the instance
 
 ssh ubuntu@111.111.111.111 # where the IP is the public IP you assigned
 
-## Install deps
+### Install deps
 
 sudo apt-get update
 
 1. Install Docker, follow the instructions on https://docs.docker.com/install/linux/docker-ce/ubuntu/
 2. Install Docker Compose, follow the instructions on https://docs.docker.com/compose/install
 
-# Get your Docker Compose
+### Get your Docker Compose
 
 1. In the future there will be a lovely UI that you can download a docker-compose.yml from
 2. Currently you have to look at the example and work from that replacing various default values @ [Docker Compose]( https://github.com/wmde/wikibase-docker/blob/master/docker-compose.yml)
