@@ -8,10 +8,40 @@ Thanks for want to contribute to LearningWikibase. The vision of LearningWikibas
 
 We've put some guidlines together to make it easier to you to know, where you can help.
 
-Code of Conduct 
-Contributor Guidelines
+- Code of Conduct 
+- Contributor Guidelines
+- Style Guide
 
-Contributor Guidline 
+# Code of Conduct
+
+The Code of Conduct provides participation Guidlines for the LearningWikibase project to truly thrive, that the community must be welcoming, inclusive and save for all.
+
+This code of conduct is inspired by [Code of Conduct for Wikimedia Technical Spaces](https://www.mediawiki.org/wiki/Code_of_Conduct)and [Citizen Code of Conduct](http://citizencodeofconduct.org/)
+
+Expected bahaviour:
+
+- Be authentic
+- Be freindly and patient
+- Be welcomeing
+- Be considerate
+- Be respectful
+- Be careful in the words that you choose
+- Try to understand disagreement
+
+Unexpected behaviour: 
+
+- Personal attacks, violence, threats of violence, or deliberate intimidation.
+- Offensive, derogatory, or discriminatory comments.
+- Gratuitous or off-topic use of sexual language or imagery.
+- Inappropriate or unwanted attention, touching, or physical contact (sexual or otherwise).
+- Inappropriate or unwanted public or private communication, following, or any form of stalking.
+- Unwanted photography or recording.
+- Disclosure of a person's identity or other private information without their consent. Disclosure of some identifying information is not consent to disclose other identifying information.
+Inappropriate or unwanted publication of private communication. Publishing or reporting private communication or personally identifying information for the purposes of reporting harassment (as explained here) and/or in the case of whistleblowing, is acceptable.
+- Harming the discussion or community with methods such as sustained disruption, interruption, or blocking of community collaboration (i.e. trolling).
+- Discrimination, particularly against marginalized and otherwise underrepresented groups. Targeted outreach to such groups is allowed and encouraged.
+
+# Contributor Guidlines 
 
 More details are comming soon, this document will be updated regulary.
 
@@ -23,7 +53,7 @@ The contributor guidlines are for:
 - project consumers as people who want to build on top of this project, remix, reuse it to create their own project
 - project lead who creates and maintain this file 
 
-#Projectvision# 
+## Projectvision
 
 [Wikibase](wikiba.se) is an open source software suite for running a collaborative knowledge base. One installation of it is Wikidata. Wikibase enables humans and machines to work together productively in the same shared space. Wikibase is a collaborative knowledge base software that allows users to tie in to a vast network of linked open data, easily adding to and ingesting knowledge from Wikidata and other instances of Wikibase, creating an ecosystem of easily shared, accessible knowledge.
 
@@ -31,15 +61,15 @@ My motivation for this project is to provide clarity, transperency in the techni
 
 The vision of LearningWikibase is to provide Online Materials to make it easer to install, maintain or customize your Wikibase instance. Please share you're learnings or tipps with others to benefit from each other. 
 
-#Projectlead#
+## Projectlead
 
 My name is sandra I set up the project as part of Mozilla's Open Leadership program spring 2019. This is happening in my volunteer time. I work as project manager for Wikidata, Wikibase and other Wikimedia projects. I like to sail and to brew beer and cider. I'm happy that you found that repro and want to support the vision of learningwikibase. 
 
-#Code of Conduct#
+## Code of Conduct
 
 Below you can also find a Code of Conduct. Please read it and be aware of it.
 
-#Ressources#
+## Ressources
 
 You can find more information about the project and plan in the Readme. The structure of Learning Wikibase is that we have different sections (articels) for every process step. So you can find: 
 
@@ -54,12 +84,13 @@ In every section we're collecting knowledge e.g. How-Tos, small Use Cases, Scree
 
 In the issue tracker you will find open issues for each section. 
 
-#Communication Channel#
+## Communication Channel
 
 There is a Wikibase Telegram Group you can join by invite. For doing this please write me. There is also a @WikibaseLearning Twitter channel where I will post news, retweet ressources I found etc.
 
-#Contributions#
+## Contributions
 
+Everyone is welcome to contribute. 
 You can contribute in three ways: 
 
 - If you work on writing content (Technical Documentation Yah!) check out [Write the Docs](https://www.writethedocs.org/guide/) and our Style Guide
@@ -68,58 +99,26 @@ You can contribute in three ways:
 
 You can also report bugs e.g. design, conentent omissions or copy errors, which u thing could cause trouble for the project. This will be valuable feedback for the project.
 
-#Recognition#
+## Recognition
+
+I appreciate everyones time and work for the project and will list all people here who're contributing to this project.
+
+## Help 
+
+You can contact me via twitter @learning wikibase or email: muellricksandra@gmail.com for now.
 
 
-#Help# 
+# Style Guide
 
-Old
------------------
+All written content should follow these principles:
 
-Table of Contents
-Types of contributions we're looking for
-Ground rules & expectations
-How to contribute
-Style guide
-Setting up your environment
-Contribution review process
-Community
-Types of contributions we're looking for
-There are many ways you can directly contribute to the guides (in descending order of need):
+* **Approachability:** Don't assume reader has prior knowledge
+* **Brevity:** Keep it simple, link to outside content for deeper dives
+* **Curation:** Amplify community best practices vs. any individual's point of view
 
-Fix editorial inconsistencies or inaccuracies
-Add stories, examples, or anecdotes that help illustrate a point
-Revise language to be more approachable and friendly
-Translate guides into other languages
-Interested in making a contribution? Read on!
+Content should maintain a light-hearted, but wise (think classy, not overly excited) tone. LearningWikibase should be easy to understand, clear and inspire people to get started with Wikibase.
 
-Ground rules & expectations
-Before we get started, here are a few things we expect from you (and that you should expect from others):
+Please share you're sources, when you post learning content. 
 
-Be kind and thoughtful in your conversations around this project. We all come from different backgrounds and projects, which means we likely have different perspectives on "how open source is done." Try to listen to others rather than convince them that your way is correct.
-Open Source Guides are released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms.
-If you open a pull request, please ensure that your contribution passes all tests. If there are test failures, you will need to address them before we can merge your contribution.
-When adding content, please consider if it is widely valuable. Please don't add references or links to things you or your employer have created as others will do so if they appreciate it.
-How to contribute
-If you'd like to contribute, start by searching through the issues and pull requests to see whether someone else has raised a similar idea or question.
+This section is inspired by [Opensource.guide](https://github.com/github/opensource.guide/edit/master/docs/styleguide.md)
 
-If you don't see your idea listed, and you think it fits into the goals of this guide, do one of the following:
-
-If your contribution is minor, such as a typo fix, open a pull request.
-If your contribution is major, such as a new guide, start by opening an issue first. That way, other people can weigh in on the discussion before you do any work.
-Style guide
-If you're writing content, see the style guide to help your prose match the rest of the Guides.
-
-Setting up your environment
-This site is powered by Jekyll. Running it on your local machine requires a working Ruby installation with Bundler.
-
-Once you have that set up, run:
-
-script/bootstrap
-script/server
-…and open http://localhost:4000 in your web browser.
-
-Community
-Discussions about the Open Source Guides take place on this repository's Issues and Pull Requests sections. Anybody is welcome to join these conversations. There is also a mailing list for regular updates.
-
-Wherever possible, do not take these conversations to private channels, including contacting the maintainers directly. Keeping communication public means everybody can benefit and learn from the conversation.
