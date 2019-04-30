@@ -1,10 +1,8 @@
 ---
 title: Import Data
-description: XX
+description: Learn how to import data to your Wikibase. 
 class: data-import
 toc:
-  install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
-  install-wikibase-natively: "Install Wikibase natively"
 order: 1
 image: /assets/images/articles/data-import.svg
 ---
