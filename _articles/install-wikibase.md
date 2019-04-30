@@ -3,8 +3,9 @@ title: Install Wikibase
 description: Learn how to install Wikibase using Git and Composer, using the Wikibase Docker image or Open Stack
 class: install-wikibase
 toc:
-  install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
-  install-wikibase-natively: "Install Wikibase natively"
+  install-Wikibase-natively with Git and Composer: "Install Wikibase natively with Git and Composer"
+  install-Wikibase-with-docker: "Install Wikibase with Docker"
+  install-Wikibase-with-OpenStack: "Install Wikibase with OpenStack"
 order: 1
 image: iconfinder_Coding-Html_379494.svg
 ---
@@ -61,7 +62,7 @@ The activation of Wikibase is done from the [Wikibase installation page](https:/
 6. The wikibase repro you have installed should work this way. 
 
 
-## Install Wikibase with a Docker Image 
+## Install Wikibase with Docker
 
 This Video will show you a Docker Image Installation: 
 
