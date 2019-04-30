@@ -131,7 +131,6 @@ blockquote {
   img {
     margin: $spacer-3 0;
   }
-
 }
 
 .border-sm-0 {
@@ -148,6 +147,29 @@ blockquote {
 
 .fill-blue {
   fill: $blue !important;
+}
+
+code {
+  background-color: rgba(#1B1F23, .05);
+  border-radius: 3px;
+  margin: 0;
+  padding: .2em .4em;
+}
+
+pre {
+  background-color: #F6F8FA;
+  border-radius: 3px;
+  overflow: auto;
+  margin-bottom: $spacer-3;
+  padding: $spacer-3;
+
+  code {
+    background-color: transparent;
+    border: 0;
+    display: inline;
+    overflow: visible;
+    padding: 0;
+  }
 }
 
 iframe {
