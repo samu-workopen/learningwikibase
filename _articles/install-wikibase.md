@@ -40,8 +40,7 @@ Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite 
 4. We tried version 1.30 to test the updates. Normally you should always use the latest version to make it stable and have the latest features. (If you took the branch away, you'd take the master, but it's currently under development). Information about current releases (newer versions of Wikibase) can be found [here](https://www.mediawiki.org/wiki/Release_notes).
 5. Create a clon of the wikibase version you need with [the command](https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_30 mediawiki) in your command line.
 6. When you create a MediaWiki Folder on your device, you can put this clone into your MediaWiki folder.  
-7. As next step you can get all extensions you want to install. This is what you do with Composer.  
-The extensions must match the MediaWiki version you downloaded. The extensions are all stored on packages. You can find them at [List of Extensions](https://gerrit.wikimedia.org/r/#/admin/projects/?filter=mediawiki%252Fextensions%252F). 
+7. As next step you can get all extensions you want to install. This is what you do with Composer. The extensions must match the MediaWiki version you downloaded. The extensions are all stored on packages. You can find them at [List of Extensions](https://gerrit.wikimedia.org/r/#/admin/projects/?filter=mediawiki%252Fextensions%252F). 
 For example: when you install the vector skin by typing the following command into your command bar: composer require mediawiki/vector-skin:dev-REL1_30 → The composer automatically loads components (packages) from which the packages you install indirectly depend, e.g. the vector skin needs more packages to work. These can be found in his MediaWikiOrdnung under the "Vendor" directory. In the Composer Jason File all dependencies are defined which are needed for the project. You want to achieve that you always have the latest version.
 
 ### Add extensionsion using composer
@@ -78,48 +77,56 @@ VIDEO IN PROGRESS
 
 To get all information please read [Using Open Stack to run custom Wikibase](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
 
-Create an account, if you don’t have one already
-Add billing details
-Click the button to setup horizon
-Navigate to “Project”
->> Compute
->> Instances
->> Launch Instance
-Name: wikibase1, Any availability zone, count 1
-Source, latest ubuntu (currently 18.04)
-Flavour: c1.large (medium should also work)
-Key pair, create one and download the PEM :)
->> Launch Instance
-Add a public IP:
-From the instances page, click on the actions menu on the right hand side & click Associate floating IP
-Click the + button to add a new IP
-Click Allocate IP && Associate
-Add firewall rules:
-Navigate to Project >> Compute >> Access & Security >> Security Groups
-Click on “Manage Rules” for the default group
-Allow ingress on port 22 (for ssh) for your IP (or all IPs, depending on how secure you want to be)
-Allow ingress on the ports for wikibase & query service UI access (the defaults at 8181 and 8282) from all IPs 0.0.0.0/0
-Login to the instance:
+## Getting Started 
+
+1. Create an account, if you don’t have one already
+2. Add billing details
+3. Click the button to setup horizon
+4. Navigate to “Project”
+    >> Compute
+    >> Instances
+    >> Launch Instance
+5. Name: wikibase1, Any availability zone, count 1
+6. Source, latest ubuntu (currently 18.04)
+7. Flavour: c1.large (medium should also work)
+8. Key pair, create one and download the PEM :)
+    >> Launch Instance
+
+## Add a public IP
+
+1. From the instances page, click on the actions menu on the right hand side & click Associate floating IP
+2. Click the + button to add a new IP
+3. Click Allocate IP && Associate
+
+## Add firewall rules
+
+1. Navigate to Project >> Compute >> Access & Security >> Security Groups
+2. Click on “Manage Rules” for the default group
+3. Allow ingress on port 22 (for ssh) for your IP (or all IPs, depending on how secure you want to be)
+4. Allow ingress on the ports for wikibase & query service UI access (the defaults at 8181 and 8282) from all IPs 0.0.0.0/0
+
+## Login to the instance
+
 ssh ubuntu@111.111.111.111 # where the IP is the public IP you assigned
-Install deps:
+
+## Install deps
+
 sudo apt-get update
-Install Docker, follow the instructions on https://docs.docker.com/install/linux/docker-ce/ubuntu/
-Install Docker Compose, follow the instructions on https://docs.docker.com/compose/install
-Get your Docker Compose
-In the future there will be a lovely UI that you can download a docker-compose.yml from
-Currently you have to look at the example and work from that replacing various default values @ https://github.com/wmde/wikibase-docker/blob/master/docker-compose.yml
-All values that should be replaced are included next to “CONFIG” comments in the yaml
-wget https://raw.githubusercontent.com/wmde/wikibase-docker/master/docker-compose.yml # Make your modifications, or just download your modified file
-sudo docker-compose up -d #Wait for a few seconds
-sudo docker-compose ps # check the status
-Upon going through this cycle, there will be an empty Wikibase ready for use.
- Wikibase Cloud When this screen is visible, it is ready to receive input. Given it runs on the same infrastructure as Wikidata, linked data can be added using the same data model allowing for better integration between Wikidata and the freshly installed Wikibase instance. We are now able to populate this Wikibase instance running on the Fuga Cloud server, using the same Python framework, we use to add knowledge to Wikidata.
 
-Upon adding data to the local Wikibase, we were able to query between our own Wikibase, Wikidata and an external scientific database (UniProt). This allows us to ask questions of our data in novel ways. Members of the Wikidata community maintain mappings between Wikidata and UniProt. The portion of the query below, that is highlighted by the blue rectangle, shows how Wikidata is used to store UniProt mappings. Thus we can ask questions about our data, in combination with cross-domain data in Wikidata, and the external UniProt data. In the screendump below, it is one query submitted to our own Wikibase, that returns this integrated knowledge from the two remote Semantic web servers.
+1. Install Docker, follow the instructions on https://docs.docker.com/install/linux/docker-ce/ubuntu/
+2. Install Docker Compose, follow the instructions on https://docs.docker.com/compose/install
 
-Running a Wikibase on an OpenStack cloud enables the integration of this local data with external points using a single API. With this interface users can skip over many of the configuration steps for the Wikibase instance they create. By including the API and the Wikidata Query Service in the image, these instances of Wikibase are preconfigured to interoperate with current Wikidata infrastructure.
+# Get your Docker Compose
 
- WikibaseInfrastructure
+1. In the future there will be a lovely UI that you can download a docker-compose.yml from
+2. Currently you have to look at the example and work from that replacing various default values @ [Docker Compose]( https://github.com/wmde/wikibase-docker/blob/master/docker-compose.yml)
+- All values that should be replaced are included next to “CONFIG” comments in the yaml
+- wget https://raw.githubusercontent.com/wmde/wikibase-docker/master/docker-compose.yml # Make your modifications, or just download your modified file
+- sudo docker-compose up -d #Wait for a few seconds
+- sudo docker-compose ps # check the status
+3. Upon going through this cycle, there will be an empty Wikibase ready for use. Wikibase Cloud When this screen is visible, it is ready to receive input. Given it runs on the same infrastructure as Wikidata, linked data can be added using the same data model allowing for better integration between Wikidata and the freshly installed Wikibase instance. We are now able to populate this Wikibase instance running on the Fuga Cloud server, using the same Python framework, we use to add knowledge to Wikidata.
+
+
 
 
 
