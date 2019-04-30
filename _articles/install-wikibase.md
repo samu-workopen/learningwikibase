@@ -17,11 +17,9 @@ You will find different ways on how to install Wikibase. The most common are:
 - [Openstack](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/)
 
 When you install Wikibase and your Wikibase Installation is public please register you installation in the [Wikibase Registry](http://wikibase-registry.wmflabs.org/wiki/Main_Page)
-
-
-
+>
 ## Install Wikibase natively with Git and Composer 
-
+>
 This video will show you a screencast on how to install Wikibase natively with Git and Composer:
 
 Video 
@@ -36,6 +34,7 @@ Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite 
 
 ### Clone MediaWiki repository
 
+
 1. Set Up MediaWiki in your terminal.
 2. You can clone the repository and click on the branch you want. The different versions are in the different branches: [Download from Git](https://www.mediawiki.org/wiki/Download_from_Git).
 4. We tried version 1.30 to test the updates. Normally you should always use the latest version to make it stable and have the latest features. (If you took the branch away, you'd take the master, but it's currently under development). Information about current releases (newer versions of Wikibase) can be found [here](https://www.mediawiki.org/wiki/Release_notes).
@@ -44,15 +43,19 @@ Prerequisite to run MediaWiki is that you have a server Media Wiki Prerequisite 
 7. As next step you can get all extensions you want to install. This is what you do with Composer. The extensions must match the MediaWiki version you downloaded. The extensions are all stored on packages. You can find them at [List of Extensions](https://gerrit.wikimedia.org/r/#/admin/projects/?filter=mediawiki%252Fextensions%252F). 
 For example: when you install the vector skin by typing the following command into your command bar: composer require mediawiki/vector-skin:dev-REL1_30 → The composer automatically loads components (packages) from which the packages you install indirectly depend, e.g. the vector skin needs more packages to work. These can be found in his MediaWikiOrdnung under the "Vendor" directory. In the Composer Jason File all dependencies are defined which are needed for the project. You want to achieve that you always have the latest version.
 
+
 ### Add extensionsion using composer
-  
+
+
 The whole extensions can also be cloned without the composer, but with the composer it is easier.
 2. now you have to install all the dependencies of Media Wiki yourself e.g. Debugging
 3. Now you have your web server. You can now install MediaWiki. (You have two paths (the local web server directly on the computer and the web directory, which is external) → you access the directory you have cloned MediaWiki into via your browser.
 Then you execute the MediaWiki installation routine → You are led through a menu. 
 5. then you can access your wiki. Now you can see that the vector skin (extension) is already inside automatically. 
 
+
 ### Configure Wikibase
+
 
 1. If you click on "Special Version" → you need to activate Wikibase Language Version (you need this to create labels in different languages) and Wikibase Repro (you need this to create items and properties on your Wikibase instance) → is also located in the Docker Image.
 2. You need to activate the local settings. To do this you have to copy the LoW Extension command into the Local Settings PHP version. The file will be generated when you finish the MediaWiki installation, then copy it to your main directory. The command is: wfLoadExtension( 'UniversalLanguageSelector' ). 
@@ -64,13 +67,16 @@ The activation of Wikibase is done from the [Wikibase installation page](https:/
 
 ## Install Wikibase with Docker
 
+
 This Video will show you a Docker Image Installation: 
 
 VIDEO IN PROGRESS
 
 All informations about the Docker installation you can find [Readme-Compose](https://github.com/wmde/wikibase-docker/blob/master/README-compose.md).
 
+
 ## Open Stack to run a custom Wikibase
+
 
 This Video will show you, how to do run a custom Wikibase with OpenStack.
 
