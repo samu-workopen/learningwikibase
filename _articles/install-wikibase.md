@@ -3,9 +3,9 @@ title: Install Wikibase
 description: Learn how to install Wikibase using Git and Composer, using the Wikibase Docker image or Open Stack
 class: install-wikibase
 toc:
-  install-Wikibase-natively with Git and Composer: "Install Wikibase natively with Git and Composer"
-  install-Wikibase-with-docker: "Install Wikibase with Docker"
-  install-Wikibase-with-OpenStack: "Install Wikibase with OpenStack"
+install-wikibase-natively-with-git-and-composer: "Install Wikibase natively with Git and Composer"
+install-wikibase-with-docker-: "Install Wikibase with Docker"
+open-stack-to-run-a-custom-wikibase-: "Install Wikibase with OpenStack"
 order: 1
 image: iconfinder_Coding-Html_379494.svg
 ---
