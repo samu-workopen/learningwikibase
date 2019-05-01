@@ -7,7 +7,7 @@ install-wikibase-natively-with-git-and-composer: "Install Wikibase natively with
 install-wikibase-with-docker-: "Install Wikibase with Docker"
 open-stack-to-run-a-custom-wikibase-: "Install Wikibase with OpenStack"
 order: 1
-image: /asset/images/articles iconfinder_Coding-Html_379494.svg
+image: /assets/images/articles/install-wikibase.svg
 ---
 
 You will find different ways on how to install Wikibase. The most common are:
