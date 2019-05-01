@@ -1,5 +1,5 @@
 {% assign t = site.data.texts %}
-<footer class="bg-white border-top text-center pt-5">
+<footer class="{% if page.class != blank %}bg-gray{% else %}bg-white{% endif %} border-top text-center pt-5">
   <div class="container-lg p-responsive mx-auto">
 
     <div class="d-flex flex-wrap flex-items-stretch">
