@@ -1,6 +1,7 @@
 ---
 title: Where I can find an overview of all Wikibase Instances? 
-related: - install-wikibase
+related: 
+  - install-wikibase
 ---
 There is the Wikibase registry: http://wikibase-registry.wmflabs.org/wiki/Main_Page
 Its a wiki which hosts a registry of Wikibase instances. It’s volunteer based and in case that you have a Wikibase install to add please register and add your instance.
