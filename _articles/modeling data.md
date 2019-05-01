@@ -1,6 +1,6 @@
 ---
-title: Dataarchitecture 
-description: Wikibase may be installed using Git and Composer, or using the Wikibase Docker image.
+title: Data & Modeling Data
+description: Learn how to modeling data.
 class: install-wikibase
 toc:
   install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
@@ -9,6 +9,6 @@ order: 1
 image: assets/images/articles/iconfinder_Dna_379486.svg
 ---
 
-## Dataarchitecture
+## Data & Modeling Data 
 
 Content will follow.
