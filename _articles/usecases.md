@@ -7,7 +7,7 @@ toc:
   import-your-Data: "Import your Data"
   query-your-Data: "Query Data"
   maintain-your-Wikibase: "Maintain your Wikibase"
-order: 1
+order: 8
 image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 ---
 
