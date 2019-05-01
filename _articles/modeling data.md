@@ -13,27 +13,17 @@ toc:
 order: 1
 image: /assets/images/articles/iconfinder_Dna_379486.svg
 ---
+Content for this website will follow.
 
-## Linked Data
+# Linked Data
 
-Content will follow.
+# RDF Shape
 
-## RDF Shape
+# Linked Data Modelling
 
-Content will follow.
+# Shape Expression (ShEx)
 
-## Linked Data Modelling
+# Description and validation of Data
 
-Content will follow.
+# Data model visualisation
 
-## Shape Expression (ShEx)
-
-Content will follow.
-
-## Description and validation of Data
-
-Content will follow.
-
-## Data model visualisation
-
-Content will follow.
