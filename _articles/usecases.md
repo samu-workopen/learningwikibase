@@ -3,7 +3,7 @@ title: Use Cases for Wikibase
 description: Read about Wikibase Learning Experience from others and share your story.
 class: use-cases
 toc:
-order: 
+order: 1
 image: assets/images/articles/iconfinder_Open-Sign_379430.svg
 ---
 
