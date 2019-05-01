@@ -92,6 +92,8 @@ blockquote {
   h5 {
     font-size: $h5-size;
     font-weight: $font-weight-semibold;
+    margin-top: $spacer-3;
+    margin-bottom: $spacer-2;
   }
 
   h6 {
