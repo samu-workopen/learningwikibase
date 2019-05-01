@@ -18,7 +18,7 @@ There are different ways to install Wikibase. The most common are:
 
 When you install Wikibase and your Wikibase Installation is public, please register you installation in the [Wikibase Registry](http://wikibase-registry.wmflabs.org/wiki/Main_Page)
 
-## Install Wikibase using Git and Composer
+# Install Wikibase using Git and Composer
 
 This screencast shows how to install Wikibase using Git and Composer:
 
@@ -61,7 +61,7 @@ Now it’s time to set up MediaWiki using the web interface.
 
 Wikibase ist not installed, set up and ready to use. For verifying you installation, access you Wiki in the browser and click *Special pages* in the *Tools* section of the menu. At the bottom of the page is a section titled *Wikibase*. Clicking *Create a new item* let’s you create you first Wikibase item.
 
-## Install Wikibase with Docker
+# Install Wikibase with Docker
 
 This Video will show installing the Wikibase Docker image:     
 
@@ -220,7 +220,7 @@ docker-compose exec wikibase php ./extensions/Wikibase/repo/maintenance/dumpRdf.
   - The docker-compose setup requires more than 2GB of available RAM to start. While being developed the dev machine has 4GB of RAM.
 
 
-## Using Open Stack to run a custom Wikibase instance
+# Using Open Stack to run a custom Wikibase instance
 
 This Video will show you, how to do run a custom Wikibase with OpenStack.
 
