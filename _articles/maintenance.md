@@ -1,10 +1,10 @@
 ---
 title: Maintain Wikibase
-description: XX
+description: Learn how to maintain your Wikibase.
 class: maintenance
 toc:
-  install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
-  install-wikibase-natively: "Install Wikibase natively"
 order: 1
 image: /assets/images/articles/maintenance.svg
 ---
+
+Content will follow.
