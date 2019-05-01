@@ -22,7 +22,7 @@ When you install Wikibase and your Wikibase Installation is public, please regis
 
 This screencast shows how to install Wikibase using Git and Composer:
 
-…Video…
+https://snater.com/install_wikibase.mp4
 
 Prerequisites to install a Wikibase instance:
 - A web server with PHP and a database server. The detailed requirements are listed on [mediawiki.org](https://www.mediawiki.org/wiki/Manual:Installation_requirements).
