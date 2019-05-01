@@ -8,7 +8,7 @@ toc:
   Query-Service-for-your-Wikibase: "Query Service for your Wikibase"
   Other-Tools-for-Export Data: "Other Tools for Export Data"
  
-order: 1
+order: 4
 image: /assets/images/articles/visualisation.svg
 ---
 Content will follow
