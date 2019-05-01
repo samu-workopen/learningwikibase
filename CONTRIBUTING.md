@@ -16,7 +16,7 @@ We've put some guidlines together to make it easier to you to know, where you ca
 
 The Code of Conduct provides participation Guidlines for the LearningWikibase project to truly thrive, that the community must be welcoming, inclusive and save for all.
 
-This code of conduct is inspired by [Code of Conduct for Wikimedia Technical Spaces](https://www.mediawiki.org/wiki/Code_of_Conduct)and [Citizen Code of Conduct](http://citizencodeofconduct.org/)
+This code of conduct is inspired by [Code of Conduct for Wikimedia Technical Spaces](https://www.mediawiki.org/wiki/Code_of_Conduct) aand [Citizen Code of Conduct](http://citizencodeofconduct.org/)
 
 Expected bahaviour:
 
@@ -86,7 +86,7 @@ In the issue tracker you will find open issues for each section.
 
 ## Communication Channel
 
-There is a Wikibase Telegram Group you can join by invite. For doing this please write me. There is also a @WikibaseLearning Twitter channel where I will post news, retweet ressources I found etc.
+There is a [WikibaseLearning Telegram Channel](t.me/learningwikibase), a WikibaseLearning Support Group you can join by invite and Twitter [@WikibaseLearning Channel](https://twitter.com/WikibaseC) you can join by invite. For get invited to the support group, please open a pull request. 
 
 ## Contributions
 
