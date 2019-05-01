@@ -105,7 +105,7 @@ I appreciate everyones time and work for the project and will list all people he
 
 ## Help 
 
-You can contact me via twitter @learning wikibase or email: muellricksandra@gmail.com for now.
+You can contact me via twitter [@WikibaseC](https://twitter.com/WikibaseC) or email: muellricksandra@gmail.com for now.
 
 
 # Style Guide
