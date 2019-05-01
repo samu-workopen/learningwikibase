@@ -14,7 +14,7 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 Content will follow
 
-#Set up a Wikibase
-#Import your Data
-#Query your Data
-#Maintain your Wikibase 
+# Set up a Wikibase
+# Import your Data
+# Query your Data
+# Maintain your Wikibase 
