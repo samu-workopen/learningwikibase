@@ -14,7 +14,7 @@ This results in a small group of early adopter Wikibase enthusiasts getting a lo
 
 ## The solution
 
-The project LearningWikibase aims at developing Learning Ressources for Wikibase (including How To's, Screencasta, FAQs, one-click use cases etc.) based on community needs. The [Learning Wikibase Open Project Canvas](https://docs.google.com/presentation/d/1YFO84JXrA3J4MPsPVlONfgIFLrKqJo7wf-dQQtPQ8DY/edit#slide=id.g1b30ce0bb1_0_90)
+The project LearningWikibase aims at developing Learning Ressources for Wikibase (including How To's, Screencasta, FAQs, one-click use cases etc.) based on community needs. The [Learning Wikibase Open Project Canvas](https://docs.google.com/presentation/d/1YFO84JXrA3J4MPsPVlONfgIFLrKqJo7wf-dQQtPQ8DY/edit#slide=id.g1b30ce0bb1_0_90).
 
 ## About the project maintainer
 
