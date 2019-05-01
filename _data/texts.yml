@@ -2,7 +2,8 @@ nav:
   about: About
   contribute: Contribute
 index:
-  lead: Wikibase is an open source software suite for running a collaborative knowledge base.  Learn how to launch a Wikibase instance and work with it.
+  lead: Wikibase is an open source software suite for running a collaborative knowledge base. One installation of it is 
+[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page). Learn how to launch a Wikibase instance and work with it.
 article:
   table_of_contents: Table of Contents
   back_to_all_guides: Back to all guides
