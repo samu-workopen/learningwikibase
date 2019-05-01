@@ -8,7 +8,7 @@ toc:
   import-data: "Import Data"
   query-and-export-Data: "Query and Export Data"
   use-cases: "Use Cases"
-order: 1
+order: 7
 image: /assets/images/articles/iconfinder_Canoe_379522.svg
 ---
 
