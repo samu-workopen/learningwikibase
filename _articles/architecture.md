@@ -6,8 +6,9 @@ toc:
   install-wikibase-using-the-docker-image: "Install Wikibase using the Docker image"
   install-wikibase-natively: "Install Wikibase natively"
 order: 1
-image:
+image: assets/images/articles/iconfinder_Dna_379486.svg
 ---
 
 ## Dataarchitecture
 
+Content will follow.
