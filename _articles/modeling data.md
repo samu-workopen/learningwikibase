@@ -1,6 +1,6 @@
 ---
 title: Data & Modeling Data
-description: Learn how to modeling data.
+description: Learn how to model data.
 class: install-wikibase
 toc:
   Linked-Data: "Linked Data"
