@@ -2,7 +2,7 @@
 
 [Wikibase](http://wikiba.se/) lets you store and manage structured, non-relational data in a central, collaboratively managed repository. It is most prominently used to power [Wikidata](https://www.wikidata.org/).
 
-*LearningWikibase* is a project aiming collecting and developing Learning Ressources for using Wikibase to make the interaction with the software easier.
+*LearningWikibase* is a project aiming collecting and developing Learning Resources for using Wikibase to make the interaction with the software easier.
 
 ## The problem
 
@@ -14,7 +14,7 @@ This results in a small group of early adopter Wikibase enthusiasts getting a lo
 
 ## The solution
 
-The project LearningWikibase aims at developing Learning Ressources for Wikibase (including How To's, Screencasta, FAQs, one-click use cases etc.) based on community needs. The [Learning Wikibase Open Project Canvas](https://docs.google.com/presentation/d/1YFO84JXrA3J4MPsPVlONfgIFLrKqJo7wf-dQQtPQ8DY/edit#slide=id.g1b30ce0bb1_0_90).
+The project LearningWikibase aims at developing Learning Resources for Wikibase (including How To's, Screencasts, FAQs, one-click use cases etc.) based on community needs. The [Learning Wikibase Open Project Canvas](https://docs.google.com/presentation/d/1YFO84JXrA3J4MPsPVlONfgIFLrKqJo7wf-dQQtPQ8DY/edit#slide=id.g1b30ce0bb1_0_90).
 
 ## About the project maintainer
 
@@ -22,7 +22,7 @@ I’m Sandra and have been involved in Open Source for a couple of years working
 
 ## Requirements
 
-Content creators, community input for creating Learning Ressources and feedback on content.
+Content creators, community input for creating Learning Resources and feedback on content.
 
 ## Get involved
 
@@ -36,8 +36,8 @@ Please check out the [contribution guidlines](https://github.com/samu-wmde/learn
 
 My roadmap for the project will be:
 - Finetune Requirement + MVP (February)
-- Creating Learning Design for the Online Course + Content + Interaction Plattform (Mid-April)
-- Testing Online Course and Interaction Plattform on Wikibase Workshops (End-April / May)
+- Creating Learning Design for the Online Course + Content + Interaction Platform (Mid-April)
+- Testing Online Course and Interaction Platform on Wikibase Workshops (End-April / May)
 
 ## Licence
 
