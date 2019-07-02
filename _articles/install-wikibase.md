@@ -65,7 +65,7 @@ Wikibase ist not installed, set up and ready to use. For verifying you installat
 
 This Video will show installing the Wikibase Docker image:     
 
-…Video… 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/P174BEDhUJg/0.jpg)](https://www.youtube.com/watch?v=P174BEDhUJg) 
 
 All information about the Docker installation can be found in the [Wikibase Docker image repository](https://github.com/wmde/wikibase-docker/blob/master/README-compose.md).
 
