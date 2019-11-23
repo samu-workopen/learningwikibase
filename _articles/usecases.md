@@ -29,7 +29,10 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 ## Museums
 
-[Botanical Garden & Botanical Museum Berlin](https://www.visitberlin.de/en/botanic-garden-and-botanical-museum) is using Wikibase as plattform to develop a semantic biodiversity standard. Read about their [Use Case](https://upload.wikimedia.org/wikipedia/commons/0/0c/WikidataCon_2019_David_Fichtmueller_-_Using_Wikibase_as_a_Platform_to_Develop_a_Semantic_Biodiversity_Standard.pdf)here. 
+![Botanical Garden](https://commons.wikimedia.org/wiki/Botanischer_Garten_Berlin#/media/File:Gewaechshaus_Botanischer_Garten_Berlin.jpg)
+
+
+[Botanical Garden & Botanical Museum Berlin](https://www.visitberlin.de/en/botanic-garden-and-botanical-museum) is using Wikibase as plattform to develop a semantic biodiversity standard. Read about their [Use Case](https://upload.wikimedia.org/wikipedia/commons/0/0c/WikidataCon_2019_David_Fichtmueller_-_Using_Wikibase_as_a_Platform_to_Develop_a_Semantic_Biodiversity_Standard.pdf) here. 
 
 ## Science 
 
