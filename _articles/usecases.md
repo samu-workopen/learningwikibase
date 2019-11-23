@@ -15,7 +15,7 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 You can find multiple use cases at [wikibase registry](https://wikibase-registry.wmflabs.org/wiki/Main_Page). Please add you installation too.
 
-![Alt-Text](/Pfad/zum/Bild.jpg)
+![Alt-Text](https://commons.wikimedia.org/wiki/File:Projet_Lingua_Libre_Commons.jpeg)
 
 
 ## Galaries
