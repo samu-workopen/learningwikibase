@@ -29,7 +29,10 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 ## Museums
 
-![File:Gewaechshaus Botanischer Garten Berlin.jpg|thumb|A (Große Tropenhaus)]
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/6WODekXcg7o/0.jpg)](https://youtu.be/6WODekXcg7o)
+
+[![Botanischer Garten Berlin](File:https://commons.wikimedia.org/wiki/File:Gewaechshaus_Botanischer_Garten_Berlin.jpg#/media/File:Gewaechshaus_Botanischer_Garten_Berlin.jpg)]
+
 
 [Botanical Garden & Botanical Museum Berlin](https://www.visitberlin.de/en/botanic-garden-and-botanical-museum) is using Wikibase as plattform to develop a semantic biodiversity standard. Read about their [Use Case](https://upload.wikimedia.org/wikipedia/commons/0/0c/WikidataCon_2019_David_Fichtmueller_-_Using_Wikibase_as_a_Platform_to_Develop_a_Semantic_Biodiversity_Standard.pdf) here. 
 
