@@ -28,6 +28,9 @@ You can find multiple use cases at [wikibase registry](https://wikibase-registry
 
 ## Archive
 
+[Lingua Libre](https://lingualibre.fr/wiki/LinguaLibre:Main_Page) is a library of audio records that everyone can complete by giving a few words, some proverbs, a few sentences, and so on. Lingua Libre has been designed so that everyone can pass on to future generations the fragile treasure of orality.
+The words, phrases, expressions thus collected thanks to you will improve some Wikimedia projects (like Wikipedia, Wikimedia Commons and the Wiktionary) and help specialists in their work.
+
 
 ## Museums
 
