@@ -29,8 +29,6 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 ## Museums
 
-[![IMAGE ALT TEXT HERE](https://commons.wikimedia.org/wiki/File:Gewaechshaus_Botanischer_Garten_Berlin.jpg#/media/File:Gewaechshaus_Botanischer_Garten_Berlin.jpg)
-
 [Botanical Garden & Botanical Museum Berlin](https://www.visitberlin.de/en/botanic-garden-and-botanical-museum) is using Wikibase as plattform to develop a semantic biodiversity standard. Read about their [Use Case](https://upload.wikimedia.org/wikipedia/commons/0/0c/WikidataCon_2019_David_Fichtmueller_-_Using_Wikibase_as_a_Platform_to_Develop_a_Semantic_Biodiversity_Standard.pdf) here. 
 
 ## Science 
@@ -38,6 +36,8 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 [FactGrid](https://blog.factgrid.de/) is a Wikibase installation run by the Gotha Research Centre and hosted at the University of Erfurt. Using Wikimedia’s groundbreaking software — the software that is centrally used by Wikidata — we are trying to provide database services for historical research on a larger collaborative platform. FactGrid used QuickStatements for their Data Import. [Read about their experience](https://blog.factgrid.de/archives/811).
 
 # Open Data
+
+[personaldata.io](https://personaldata.io/) is a the integrative toolbox for addressing surveillance capitalism. They set up a wikibase instance. [How they work on it you can find here](https://forum.personaldata.io/t/an-example-uber-on-our-wiki/80). 
 
 
 # Workshops & Events for Wikibase 
