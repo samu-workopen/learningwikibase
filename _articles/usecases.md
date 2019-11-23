@@ -39,9 +39,9 @@ You can find multiple use cases at [wikibase registry](https://wikibase-registry
 
 # Open Data
 
-"[personaldata.io]"(https://personaldata.io/) is a the integrative toolbox for addressing surveillance capitalism. They set up a wikibase instance. [How they work on it you can find here](https://forum.personaldata.io/t/an-example-uber-on-our-wiki/80). 
+[personaldata.io](https://personaldata.io/) is a the integrative toolbox for addressing surveillance capitalism. They set up a wikibase instance. [How they work on it you can find here](https://forum.personaldata.io/t/an-example-uber-on-our-wiki/80). 
 
-"[Open Street Map]"(https://wiki.openstreetmap.org/wiki/Main_Page)set up a wikibase instance for their data. Data items is a way to document all OSM metadata like keys and tags in every language on this wiki in a structured way, useful to both humans and tools. [You can find informations here](https://wiki.openstreetmap.org/wiki/Data_items).
+[Open Street Map](https://wiki.openstreetmap.org/wiki/Main_Page)set up a wikibase instance for their data. Data items is a way to document all OSM metadata like keys and tags in every language on this wiki in a structured way, useful to both humans and tools. [You can find informations here](https://wiki.openstreetmap.org/wiki/Data_items).
 
 
 # Workshops & Events for Wikibase 
