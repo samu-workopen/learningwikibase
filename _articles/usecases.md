@@ -13,6 +13,7 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 # Use Case
 
+You can find multiple use cases at [wikibase registry](https://wikibase-registry.wmflabs.org/wiki/Main_Page). Please add you installation too.
 
 
 ## Galaries
@@ -38,10 +39,16 @@ image: /assets/images/articles/iconfinder_Open-Sign_379430.svg
 
 # Open Data
 
-[personaldata.io](https://personaldata.io/) is a the integrative toolbox for addressing surveillance capitalism. They set up a wikibase instance. [How they work on it you can find here](https://forum.personaldata.io/t/an-example-uber-on-our-wiki/80). 
+"[personaldata.io]"(https://personaldata.io/) is a the integrative toolbox for addressing surveillance capitalism. They set up a wikibase instance. [How they work on it you can find here](https://forum.personaldata.io/t/an-example-uber-on-our-wiki/80). 
+
+"[Open Street Map]"(https://wiki.openstreetmap.org/wiki/Main_Page)set up a wikibase instance for their data. Data items is a way to document all OSM metadata like keys and tags in every language on this wiki in a structured way, useful to both humans and tools. [You can find informations here](https://wiki.openstreetmap.org/wiki/Data_items).
 
 
 # Workshops & Events for Wikibase 
+
+There have been several Wikibase Workshops with Presentations and Documentation around wikibase. You can find these here: 
+*[Wikidata & Wikibase Workshop](https://www.wikidata.org/wiki/Wikidata:Events/UGent_Wikidata_and_Wikibase_Workshop_2019)
+*
 
 # Development work for Wikibase
 
