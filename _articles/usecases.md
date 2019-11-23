@@ -26,17 +26,17 @@ You can find multiple use cases at [wikibase registry](https://wikibase-registry
 
 ## Libaries
 
-###French National Entities File
+### French National Entities File
 
 [The French National Entities File (FNE)](https://www.transition-bibliographique.fr/2019-04-02-appel-offre-preuve-concept-wikibase-pour-fne/)assessing Wikibase as the core. The joint initiative from Abes and BnF to build a new service to libaries and beyond (GLAMs) and a shared platform for collaboratively creating and maintaining reference data about entities (person, corporate bodies, places, concepts, creative works).[Read about their assensment](https://upload.wikimedia.org/wikipedia/commons/1/16/Wikibase_for_FNE.pdf) and their [proof of concept](https://www.transition-bibliographique.fr/fne/fichier-national-entites/).
 
-###German National Libary
+### German National Libary
 
 [German National Libary](https://www.dnb.de/DE/Home/home_node.html) and [Wikimedia Deutschland e.V.](https://www.wikimedia.de/) have agreed to jointly [test the potential of Wikibase](https://wiki.dnb.de/pages/viewpage.action?pageId=147754828). The two institutions have now agreed to jointly test the potential of Wikibase, the software used to run the free database Wikidata, for use in the largest authority file for cultural data in German-speaking countries, the Integrated Authority File (Gemeinsame Normdatei, GND). The significance of the evaluation project for the world of open data, the GLAM area and libraries, in particular, is described here., the software used to run the free database Wikidata, for use in the largest authority file for cultural data in German-speaking countries, the Integrated Authority File (Gemeinsame Normdatei, GND). The significance of the evaluation project for the world of open data, the GLAM area and libraries, in particular, is described here.
 
 ## Archive
 
-###Lingua Libre
+### Lingua Libre
 
 [Lingua Libre](https://lingualibre.fr/wiki/LinguaLibre:Main_Page) is a library of audio records that everyone can complete by giving a few words, some proverbs, a few sentences, and so on. Lingua Libre has been designed so that everyone can pass on to future generations the fragile treasure of orality.
 The words, phrases, expressions thus collected thanks to you will improve some Wikimedia projects (like Wikipedia, Wikimedia Commons and the Wiktionary) and help specialists in their work.
@@ -44,23 +44,23 @@ The words, phrases, expressions thus collected thanks to you will improve some W
 
 ## Museums
 
-###Botanical Garden & Bontanical Museum Berlin
+### Botanical Garden & Bontanical Museum Berlin
 
 [Botanical Garden & Botanical Museum Berlin](https://www.visitberlin.de/en/botanic-garden-and-botanical-museum) is using Wikibase as plattform to develop a semantic biodiversity standard. Read about their [Use Case](https://upload.wikimedia.org/wikipedia/commons/0/0c/WikidataCon_2019_David_Fichtmueller_-_Using_Wikibase_as_a_Platform_to_Develop_a_Semantic_Biodiversity_Standard.pdf) here. 
 
 ## Science 
 
-###Factgrid
+### Factgrid
 
 [FactGrid](https://blog.factgrid.de/) is a Wikibase installation run by the Gotha Research Centre and hosted at the University of Erfurt. Using Wikimedia’s groundbreaking software — the software that is centrally used by Wikidata — we are trying to provide database services for historical research on a larger collaborative platform. FactGrid used QuickStatements for their Data Import. [Read about their experience](https://blog.factgrid.de/archives/811).
 
 # Open Data
 
-###Personaldata
+### Personaldata
 
 [personaldata.io](https://personaldata.io/)  is a the integrative toolbox for addressing surveillance capitalism. They set up a wikibase instance. [How they work on it you can find here](https://forum.personaldata.io/t/an-example-uber-on-our-wiki/80). 
 
-###OpenStreetMap
+### OpenStreetMap
 
 [Open Street Map](https://wiki.openstreetmap.org/wiki/Main_Page)set up a wikibase instance for their data. Data items is a way to document all OSM metadata like keys and tags in every language on this wiki in a structured way, useful to both humans and tools. [You can find informations here](https://wiki.openstreetmap.org/wiki/Data_items).
 
