@@ -71,13 +71,17 @@ Wikibase has value outside Wikidata. Various workshops  have been organised (see
 There are different type of workshop, this section describes some
 ## Bring your own data workshop (BYOD)
 
-A BYOD workshop follows the following steps.
+A BYOD is typically workshop follows the following steps.
 
  1. Problem definition
  2. Wikibase deployment
- 3. 
-5. 
+ 3. Which data
+ 4. Which question
+5. Data import
+6. Problem solving
+7. Tool developing
 
+### Problem definition
 There have been several Wikibase Workshops with Presentations and Documentation around wikibase. You can find these here: 
 * [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 1(April 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-04-23-25-Antwerpen)
 * [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 2(June 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-06-17-19-Berlin)
@@ -88,6 +92,6 @@ There have been several Wikibase Workshops with Presentations and Documentation 
 # Development work for Wikibase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMzM5NjU4LC0zMTA2NDQxMDgsMTA4MT
+eyJoaXN0b3J5IjpbLTc1MzgxODMyLC0zMTA2NDQxMDgsMTA4MT
 Y0NzY3NF19
 -->
