@@ -30,8 +30,9 @@ The following record in tabular data
 can also be described as the following semantic triple in linked data
 ```mermaid
 graph LR
-  book{}
+  book[The origin of species] -- has author --> author[Charles Darwin]
 ```
+
 
 # RDF Shape
 
@@ -44,6 +45,6 @@ graph LR
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDIxNDk0NCwxMjE1NzM5MDEsLTExMz
+eyJoaXN0b3J5IjpbMTkxNzYyNzg5MSwxMjE1NzM5MDEsLTExMz
 Y0NDYzOF19
 -->
