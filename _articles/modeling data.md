@@ -21,7 +21,7 @@ Wikibase is a software stack that allows storing linked data. Linked data is dat
 2. Data points use [Internationlized Resource Identifiers (IRI)](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
 
 ## Semantic triples
-
+Core to link data is the concept of semantic triples. In relational databases, data is stored in tables. Spreadsheet also use a tabular structure to captur
 
 # RDF Shape
 
@@ -34,6 +34,6 @@ Wikibase is a software stack that allows storing linked data. Linked data is dat
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM3OTQwMzAsMTIxNTczOTAxLC0xMT
-M2NDQ2MzhdfQ==
+eyJoaXN0b3J5IjpbLTYwMzYxMTA1OSwxMjE1NzM5MDEsLTExMz
+Y0NDYzOF19
 -->
