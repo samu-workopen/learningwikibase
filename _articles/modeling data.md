@@ -43,7 +43,7 @@ Combining our book table with the following data on the author.
 graph LR
   book[The origin of species] -- has author --> author[Charles Darwin]
   author -- birthdate --> dob[12 February 1809]
-  author -- birthplace --> bp [The Mount Shrewsbury, Shropshire, England]
+  author -- birthplace --> bp[The Mount Shrewsbury, Shropshire, England]
 ```
 
 
@@ -60,6 +60,6 @@ graph LR
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5MzI1NTM0LDEyMTU3MzkwMSwtMTEzNj
+eyJoaXN0b3J5IjpbOTUwNDg0MDIwLDEyMTU3MzkwMSwtMTEzNj
 Q0NjM4XX0=
 -->
