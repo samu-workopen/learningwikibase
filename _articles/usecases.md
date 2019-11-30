@@ -71,7 +71,7 @@ Wikibase has value outside Wikidata. Various workshops  have been organised (see
 There are different type of workshop, this section describes some
 ## Bring your own data workshop (BYOD)
 
-The concept of a BYOD workshop was taken from the [FAIR BYODs](https://www.dtls.nl/fair-data/byod/) by the teh is typically workshop follows the following steps.
+Wikibase BYOD workshops are inspider by the  [FAIR data BYODs](https://www.dtls.nl/fair-data/byod/). A BYOD is a 2-3 day workshop where  by the teh is typically workshop follows the following steps.
 
  1. Problem definition
  2. Wikibase deployment
@@ -92,6 +92,6 @@ There have been several Wikibase Workshops with Presentations and Documentation 
 # Development work for Wikibase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjI5MTczMzYsLTMxMDY0NDEwOCwxMD
+eyJoaXN0b3J5IjpbLTE5MjEzMTI5NzgsLTMxMDY0NDEwOCwxMD
 gxNjQ3Njc0XX0=
 -->
