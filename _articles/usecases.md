@@ -67,7 +67,9 @@ The words, phrases, expressions thus collected thanks to you will improve some W
 
 # Workshops & Events for Wikibase 
 
-Wikibase has value outside Wikidata. Various workshops (see below for a list) have been organised. workshops are instrumental in the
+Wikibase has value outside Wikidata. Various workshops  have been organised (see list below). 
+Such workshop are quite valuable and easy to organise. Anyone can start one. One
+
 There have been several Wikibase Workshops with Presentations and Documentation around wikibase. You can find these here: 
 * [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 1(April 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-04-23-25-Antwerpen)
 * [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 2(June 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-06-17-19-Berlin)
@@ -78,5 +80,5 @@ There have been several Wikibase Workshops with Presentations and Documentation 
 # Development work for Wikibase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1NTYzMDI1LDEwODE2NDc2NzRdfQ==
+eyJoaXN0b3J5IjpbLTg1NjIzMjE2MywxMDgxNjQ3Njc0XX0=
 -->
