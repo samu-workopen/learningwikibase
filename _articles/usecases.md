@@ -68,13 +68,13 @@ The words, phrases, expressions thus collected thanks to you will improve some W
 # Workshops & Events for Wikibase 
 
 There have been several Wikibase Workshops with Presentations and Documentation around wikibase. You can find these here: 
-* [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase (April 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-04-23-25-Antwerpen)
-* 
+* [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 1(April 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-04-23-25-Antwerpen)
+* [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 1(April 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-06-17-19-Berlin)
 *[Wikidata & Wikibase Workshop](https://www.wikidata.org/wiki/Wikidata:Events/UGent_Wikidata_and_Wikibase_Workshop_2019)
 *
 
 # Development work for Wikibase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTY0NzY3NF19
+eyJoaXN0b3J5IjpbLTEwMTY4OTE0ODgsMTA4MTY0NzY3NF19
 -->
