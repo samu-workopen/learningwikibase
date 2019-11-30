@@ -46,6 +46,7 @@ graph LR
   author -- birthplace --> bp[The Mount Shrewsbury, Shropshire, England]
 ```
 
+Merging two table can be quite challenging. One ha
 
 
 
@@ -60,6 +61,6 @@ graph LR
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwNDg0MDIwLDEyMTU3MzkwMSwtMTEzNj
-Q0NjM4XX0=
+eyJoaXN0b3J5IjpbMTMyODY4NDE2NSwxMjE1NzM5MDEsLTExMz
+Y0NDYzOF19
 -->
