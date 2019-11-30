@@ -17,8 +17,11 @@ Content for this website will follow.
 
 # Linked Data
 Wikibase is a software stack that allows storing linked data. Linked data is data that follows two principles. 
-1. Data is available as triples.
+1. Data is available as [sematic triples](https://en.wikipedia.org/wiki/Semantic_triple).
 2. Data points use [Internationlized Resource Identifiers (IRI)](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
+
+## Semantic triples
+
 
 # RDF Shape
 
@@ -31,6 +34,6 @@ Wikibase is a software stack that allows storing linked data. Linked data is dat
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODQ2MTA4MiwxMjE1NzM5MDEsLTExMz
-Y0NDYzOF19
+eyJoaXN0b3J5IjpbLTEwMDM3OTQwMzAsMTIxNTczOTAxLC0xMT
+M2NDQ2MzhdfQ==
 -->
