@@ -42,7 +42,8 @@ Combining our book table with the following data on the author.
 ```mermaid
 graph LR
   book[The origin of species] -- has author --> author[Charles Darwin]
-  author -- birthdate 
+  author -- birthdate --> dob[12 February 1809]
+  author -- birthplace --> bp [The Mount Shrewsbury, Shropshire, England]
 ```
 
 
@@ -59,6 +60,6 @@ graph LR
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQ3MTY5MzksMTIxNTczOTAxLC0xMT
-M2NDQ2MzhdfQ==
+eyJoaXN0b3J5IjpbMjI5MzI1NTM0LDEyMTU3MzkwMSwtMTEzNj
+Q0NjM4XX0=
 -->
