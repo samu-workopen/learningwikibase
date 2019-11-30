@@ -16,6 +16,7 @@ image: /assets/images/articles/iconfinder_Dna_379486.svg
 Content for this website will follow.
 
 # Linked Data
+Linked data is te
 
 # RDF Shape
 
@@ -27,3 +28,6 @@ Content for this website will follow.
 
 # Data model visualisation
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2NjU4ODc4MTBdfQ==
+-->
