@@ -17,8 +17,8 @@ Content for this website will follow.
 
 # Linked Data
 Wikibase is a software stack that allows storing linked data. Linked data is data that follows two principles. 
-1. Data is formatted in triples.
-2. Internationalized  
+1. Data is available as triples.
+2. In
 
 # RDF Shape
 
@@ -31,5 +31,6 @@ Wikibase is a software stack that allows storing linked data. Linked data is dat
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTczOTAxLC0xMTM2NDQ2MzhdfQ==
+eyJoaXN0b3J5IjpbNDQwNTE2MjMyLDEyMTU3MzkwMSwtMTEzNj
+Q0NjM4XX0=
 -->
