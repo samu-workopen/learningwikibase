@@ -46,7 +46,7 @@ graph LR
   author -- birthplace --> bp[The Mount Shrewsbury, Shropshire, England]
 ```
 
-Merging two table can be quite challenging. One ha
+When merging the two tables, not only do the 
 
 
 
@@ -61,6 +61,6 @@ Merging two table can be quite challenging. One ha
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODY4NDE2NSwxMjE1NzM5MDEsLTExMz
-Y0NDYzOF19
+eyJoaXN0b3J5IjpbMjk3Mzk3NTM0LDEyMTU3MzkwMSwtMTEzNj
+Q0NjM4XX0=
 -->
