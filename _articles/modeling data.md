@@ -36,8 +36,8 @@ The benefit of having the data as triples is that combining various datasets bec
 If we want to combine our book table with the following data on the author.
 
 |person| data of birth | birthplace
-|--|--|
-|  |  |
+|--|--|--|
+|Charles Darwin  | 12 February 1809 | [The Mount](https://en.wikipedia.org/wiki/The_Mount,_Shrewsbury "The Mount, Shrewsbury"), [Shrewsbury](https://en.wikipedia.org/wiki/Shrewsbury "Shrewsbury"), [Shropshire](https://en.wikipedia.org/wiki/Shropshire "Shropshire"), England |
 
 
 
@@ -52,6 +52,6 @@ If we want to combine our book table with the following data on the author.
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjExNTU2MSwxMjE1NzM5MDEsLTExMz
+eyJoaXN0b3J5IjpbMTcwNzA0NDc2OSwxMjE1NzM5MDEsLTExMz
 Y0NDYzOF19
 -->
