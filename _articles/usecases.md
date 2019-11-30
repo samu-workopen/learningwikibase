@@ -68,8 +68,12 @@ The words, phrases, expressions thus collected thanks to you will improve some W
 # Workshops & Events for Wikibase 
 
 There have been several Wikibase Workshops with Presentations and Documentation around wikibase. You can find these here: 
+* [enter link description here](Wikibase%20workshop%20on%20the%20infrastructure%20%28April%202018%20in%20Antwerp,%20Belgium%29%29)
 *[Wikidata & Wikibase Workshop](https://www.wikidata.org/wiki/Wikidata:Events/UGent_Wikidata_and_Wikibase_Workshop_2019)
 *
 
 # Development work for Wikibase
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTEzMzcwNDg3OF19
+-->
