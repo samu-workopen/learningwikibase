@@ -16,7 +16,7 @@ image: /assets/images/articles/iconfinder_Dna_379486.svg
 Content for this website will follow.
 
 # Linked Data
-Linked data is te
+Wikibase is a software stack that allows storing linked data. Linked data is data that follows two principles. That is that data is  
 
 # RDF Shape
 
@@ -29,5 +29,5 @@ Linked data is te
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU4ODc4MTBdfQ==
+eyJoaXN0b3J5IjpbOTk1ODc2MTAyXX0=
 -->
