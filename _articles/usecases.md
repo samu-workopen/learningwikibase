@@ -69,8 +69,9 @@ The words, phrases, expressions thus collected thanks to you will improve some W
 
 Wikibase has value outside Wikidata. Various workshops  have been organised (see list below). 
 There are different type of workshop, this section describes some
-## Bring your own data (BYOD)
-A BYOD is typically a 2-3 day event that 
+## Bring your own data workshop (BYOD)
+
+A BYOD workshop follows the following steps.
 
 There have been several Wikibase Workshops with Presentations and Documentation around wikibase. You can find these here: 
 * [Workshop on harnessing open data for Monitoring and Evaluation through Wikibase by the ERC part 1(April 2018 Antwerp)](https://www.wikidata.org/wiki/Wikidata:WikiProject_Wikidata_for_research/Meetups/2018-04-23-25-Antwerpen)
@@ -82,5 +83,5 @@ There have been several Wikibase Workshops with Presentations and Documentation 
 # Development work for Wikibase
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI2NDU2NDcsMTA4MTY0NzY3NF19
+eyJoaXN0b3J5IjpbOTI0NTY2MjksMTA4MTY0NzY3NF19
 -->
