@@ -46,7 +46,7 @@ graph LR
   author -- birthplace --> bp[The Mount Shrewsbury, Shropshire, England]
 ```
 
-When merging the two tables, not only do the collumns need to be matched,
+When trying to merge the two tables a matching collumn between the two tables need to be defined and the columns 
 
 
 
@@ -61,6 +61,6 @@ When merging the two tables, not only do the collumns need to be matched,
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODczMjMzNywxMjE1NzM5MDEsLTExMz
-Y0NDYzOF19
+eyJoaXN0b3J5IjpbODgxOTI1MTg4LDEyNDg3MzIzMzcsMTIxNT
+czOTAxLC0xMTM2NDQ2MzhdfQ==
 -->
