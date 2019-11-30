@@ -32,7 +32,14 @@ can also be described as the following semantic triple in linked data
 graph LR
   book[The origin of species] -- has author --> author[Charles Darwin]
 ```
-The benefit of having the data as triples is that combining various datasets becomes straight forwa
+The benefit of having the data as triples is that combining various datasets becomes straight forward. 
+If we want to combine our book table with the following data on the author.
+
+|person| data of birth | birthplace
+|--|--|
+|  |  |
+
+
 
 # RDF Shape
 
@@ -45,6 +52,6 @@ The benefit of having the data as triples is that combining various datasets bec
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMjI1NjEzLDEyMTU3MzkwMSwtMTEzNj
-Q0NjM4XX0=
+eyJoaXN0b3J5IjpbLTU0NjExNTU2MSwxMjE1NzM5MDEsLTExMz
+Y0NDYzOF19
 -->
