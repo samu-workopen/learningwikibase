@@ -33,11 +33,18 @@ graph LR
   book[The origin of species] -- has author --> author[Charles Darwin]
 ```
 The benefit of having the data as triples is that combining various datasets becomes straight forward. 
-If we want to combine our book table with the following data on the author.
+Combining our book table with the following data on the author.
 
 |person| data of birth | birthplace
 |--|--|--|
 |Charles Darwin  | 12 February 1809 | [The Mount](https://en.wikipedia.org/wiki/The_Mount,_Shrewsbury "The Mount, Shrewsbury"), [Shrewsbury](https://en.wikipedia.org/wiki/Shrewsbury "Shrewsbury"), [Shropshire](https://en.wikipedia.org/wiki/Shropshire "Shropshire"), England |
+
+```mermaid
+graph LR
+  book[The origin of species] -- has author --> author[Charles Darwin]
+  author -- birthdate 
+```
+
 
 
 
@@ -52,6 +59,6 @@ If we want to combine our book table with the following data on the author.
 # Data model visualisation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzA0NDc2OSwxMjE1NzM5MDEsLTExMz
-Y0NDYzOF19
+eyJoaXN0b3J5IjpbLTExMzQ3MTY5MzksMTIxNTczOTAxLC0xMT
+M2NDQ2MzhdfQ==
 -->
