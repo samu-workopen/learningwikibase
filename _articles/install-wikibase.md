@@ -31,13 +31,10 @@ Prerequisites to install a Wikibase instance:
 
 ### Get MediaWiki and extension files
 
-1. Run `git clone https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_32 mediawiki` in your console or command line. This will clone the MediaWiki version 1.32 into a subdirectory “?mediawiki” of your current directory. (Be sure to checkout the current MediaWiki version before running the command and replace `REL1_32` with the most current MediaWiki version.)
+1. Run `git clone https://gerrit.wikimedia.org/r/mediawiki/core.git --branch REL1_34 mediawiki` in your console or command line. This will clone the MediaWiki version 1.32 into a subdirectory “mediawiki” of your current directory. (Be sure to checkout the current MediaWiki version before running the command and replace `REL1_34` with the most current MediaWiki version.)
 2. Enter the subdirectory (`cd mediawiki`) and run `composer install --no-dev`, which installs all dependencies required by MediaWiki. MediaWiki extension may be installed using `composer install <package>:<version>` as done in the following. Extensions are listed on [mediawiki.org](https://www.mediawiki.org/wiki/Manual:Extensions) and packages of the extensions are also distributed through the Composer packages repository [packagist.org](https://packagist.org/) for being able to easily install them using Composer.
-3. To install the Vector skin, which is the default of Wikipedia, run `composer install mediawiki/vector-skin:dev-REL1_32`. This will download the Vector skin files and all dependencies.
-
-   The specified version (`dev-REL1_32`) must match the version of MediaWiki (with all MediaWiki extensions featuring a `dev-` prefix). Otherwise, compatibility issues may occur.
-4. To install the Universal Language Selector that allows specifying labels and descriptions in a vast range of languages, run `composer install mediawiki/universal-language-selector:dev-REL1_32`.
-5. To install Wikibase, run `composer install wikibase/wikibase:dev-REL1_32`.
+3. To install the Universal Language Selector that allows specifying labels and descriptions in a vast range of languages, run `composer require mediawiki/universal-language-selector:dev-REL1_34`.
+4. To install Wikibase, run `composer require wikibase/wikibase:dev-REL1_34`.
 
 ### Set up MediaWiki and extension
 
@@ -220,13 +217,13 @@ docker-compose exec wikibase php ./extensions/Wikibase/repo/maintenance/dumpRdf.
   - The docker-compose setup requires more than 2GB of available RAM to start. While being developed the dev machine has 4GB of RAM.
 
 
-# Using Open Stack to run a custom Wikibase instance
+# Using OpenStack to run a custom Wikibase instance
 
 This Video will show you, how to do run a custom Wikibase with OpenStack.
 
 …Video…
 
-To get all information please read [Using Open Stack to run custom Wikibase](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/).
+To get all information please read [Using OpenStack to run custom Wikibase](https://fuga.cloud/labs/using-openstack-to-run-custom-wikibase/).
 
 ### Getting Started
 
