@@ -25,5 +25,18 @@ To restore backup, either run the following command on either the existing wikib
 docker exec wikibase-docker_mysql_1 mysql -u wikiuser -psqlpass my_wiki < backup.sql
 ```
 
+## Backup of blazegraph
+mysqldump won't dump the contents of blazegraph, and you will have to reload, but you can also take a copy of the data.jnl file to avoid needing to do that
+
+### Locating data.jnl
+Data.jnl is created automatically and not set by the ```docker-compose.yml``` file. It can be located using the following command
+
+```
+sudo find / -iname data.jnl
+```
+If multiple wikibase run on the same machine, multiple locations will be reported. 
+Make a copy of the relavant ```data.jnl``` file, together with the backup.sql.
+
+
 
 
