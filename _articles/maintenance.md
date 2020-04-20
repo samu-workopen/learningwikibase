@@ -18,7 +18,7 @@ docker exec wikibase-docker_mysql_1 mysqldump -u wikiuser -psqlpass my_wiki > ba
 
 -psqlpass and -u are set in the docker-compose file that is used to run the wikibase. In the default example docker-compose.yml file the -psqlpass is set at two locations. as ```DB_PASS``` and as ```MYSQL_PASSWORD```. ```-u``` is set as ```DB_USER``` and as ```MYSQL_USER```
 
-# Restore
+## Restore
 To restore backup, either run the following command on either the existing wikibase instance, or on a new - empty - wikibase instance.
 
 ```
