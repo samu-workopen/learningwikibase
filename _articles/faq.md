@@ -58,6 +58,15 @@ Find documentation here: sudo docker ps and sudo docker logs.
 ### And the problem you have is which URLs are broken?
 I think you want to configure the schema and host to what you want as it shows here: https://github.com/wmde/wikibase-docker/blob/master/wdqs/README.md
 
+### How do I remove the sitelinks to other Wikimedia projects from my Wikibase instance?
+Add the following to your `LocalSettings.php` (see also [here](https://discourse-mediawiki.wmflabs.org/t/remove-wikibase-sitelinks/1155):
+
+```
+$wgWBRepoSettings['siteLinkGroups'] = [];
+$wgWBRepoSettings['specialSiteLinkGroups'] = [];
+```
+
+
 # Modeling Data
 
 ### Regarding federation in particular, how is this done for now? (By other Wikibase instances wanting to piggy back on Wikidata s ontology)
