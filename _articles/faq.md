@@ -59,7 +59,7 @@ Find documentation here: sudo docker ps and sudo docker logs.
 I think you want to configure the schema and host to what you want as it shows here: https://github.com/wmde/wikibase-docker/blob/master/wdqs/README.md
 
 ### How do I remove the sitelinks to other Wikimedia projects from my Wikibase instance?
-Add the following to your `LocalSettings.php` (see also [here](https://discourse-mediawiki.wmflabs.org/t/remove-wikibase-sitelinks/1155):
+Add the following to your `LocalSettings.php` (see also [here](https://discourse-mediawiki.wmflabs.org/t/remove-wikibase-sitelinks/1155)):
 
 ```
 $wgWBRepoSettings['siteLinkGroups'] = [];
