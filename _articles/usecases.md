@@ -28,7 +28,7 @@ You can find multiple use cases at [wikibase registry](https://wikibase-registry
 
 ### French National Entities File
 
-[The French National Entities File (FNE)](https://www.transition-bibliographique.fr/2019-04-02-appel-offre-preuve-concept-wikibase-pour-fne/)assessing Wikibase as the core. The joint initiative from Abes and BnF to build a new service to libaries and beyond (GLAMs) and a shared platform for collaboratively creating and maintaining reference data about entities (person, corporate bodies, places, concepts, creative works).[Read about their assensment](https://upload.wikimedia.org/wikipedia/commons/1/16/Wikibase_for_FNE.pdf) and their [proof of concept](https://www.transition-bibliographique.fr/fne/fichier-national-entites/).
+[The French National Entities File (FNE)](https://www.transition-bibliographique.fr/2019-04-02-appel-offre-preuve-concept-wikibase-pour-fne/) assessing Wikibase as the core. The joint initiative from [Abes](https://abes.fr/en/) and [BnF](https://www.bnf.fr/en) to build a new service to libaries and beyond (GLAMs) and a shared platform for collaboratively creating and maintaining reference data about entities (person, corporate bodies, places, concepts, creative works). [Read about their assensment](https://upload.wikimedia.org/wikipedia/commons/1/16/Wikibase_for_FNE.pdf) and their [proof of concept](https://www.transition-bibliographique.fr/fne/fichier-national-entites/).
 
 ### German National Libary
 
