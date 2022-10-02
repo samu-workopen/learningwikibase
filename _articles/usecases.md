@@ -24,7 +24,7 @@ You can find multiple use cases at [wikibase registry](https://wikibase-registry
 
 [Rhizome](https://rhizome.org/), an arts organization in New York City, was one of the early adopters of Wikibase, having been using it since 2015 for its archive of born-digital art and digital preservation activities. [Read about Rhizome's journey to set up a Wikibase instance](https://wikimediafoundation.org/2018/09/06/rhizome-wikibase/).
 
-## Libaries
+## Libraries
 
 ### French National Entities File
 
